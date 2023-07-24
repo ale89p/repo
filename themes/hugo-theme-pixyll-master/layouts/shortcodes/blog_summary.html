@@ -1,0 +1,33 @@
+<!-- <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+        <div class="home">
+            <div class="posts">
+                {{ with .Get "pages" }}
+                    {{ $paginator := .Paginate (where . "Type" "in" (slice "post")) .Get "paginate" }}
+                    {{ range $paginator.Pages.ByDate.Reverse }}
+                        {{ .Render "summary" }}
+                    {{ end }}
+                    {{ partial "pagination.html" $paginator }}
+                {{ else }}
+                    {{ range first 10 .Site.RegularPages.ByDate.Reverse }}
+                        {{ if eq .Type "post" }}
+                            {{ .Render "summary"}}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            {{ partial "social_sharing.html" . }}
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- layouts/shortcodes/poesie_summary.html -->
+
+<div class="blog-summary">
+    {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
+    {{ range $posts.ByDate.Reverse }}
+        {{ .Render "summary" }}
+    {{ end }}
+</div>

@@ -1,0 +1,49 @@
+archetypeDir           = "archetypes"
+author                 = "admin"
+baseUrl                = "http://localhost:1313"
+buildDrafts            = false
+relativeURLs           = true
+canonifyUrls           = true
+contentDir             = "content"
+languageCode           = "en-us"
+layoutDir              = "layouts"
+publishDir             = "public"
+theme                  = "hugo-theme-pixyll-master"
+themesDir              = "/themes"
+title                  = "trapesiepoesie"
+enableEmoji            = true
+DefaultContentLanguage = "en"
+enableRobotsTXT        = true
+#disqusShortname        = ""
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[Languages.ru]
+weight = 2
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+  poesie = "poesie"
+
+[params]
+  mainSections = ["post", "poesie"]
+  search_engine = true
+  google_analytics_id = "G-NB9M61JD17"
+  twitter_username = "username"
+  paginate = 5
+  blog_posts = true
+
+  [sitemap]
+    changefreq = 'weekly'
+    filename = 'sitemap.xml'
+    priority = 0.5
+
+  [markup.goldmark.renderer]
+unsafe= true

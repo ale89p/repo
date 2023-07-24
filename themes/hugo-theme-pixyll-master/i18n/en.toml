@@ -1,0 +1,36 @@
+[about]
+other = "Chi siamo"
+
+[contact]
+other = "Contatti"
+
+[sections]
+
+other = "Sezioni"
+
+[posts]
+
+other="Post"
+
+[blog]
+
+other = "Blog"
+
+[poesia]
+
+other = "Poesia"
+
+[tags]
+other = "Tags"
+
+[search]
+other = "Cerca nel sito"
+
+[written]
+other = "Scritto da"
+
+[newer]
+other = "più recenti"
+
+[older]
+other = "più vecchi"

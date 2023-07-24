@@ -1,0 +1,8 @@
+<!-- layouts/shortcodes/poesie_summary.html -->
+
+<div class="poesie-summary">
+    {{ $poesie := where .Site.RegularPages "Type" "in" (slice "poesie") }}
+    {{ range $poesie.ByDate.Reverse }}
+        {{ .Render "summary" }}
+    {{ end }}
+</div>

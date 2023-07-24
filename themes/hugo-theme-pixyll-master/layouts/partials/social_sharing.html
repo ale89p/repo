@@ -1,0 +1,94 @@
+<style>
+  .social-sharing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .social-sharing-container p {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .social-sharing-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+
+  .social-sharing-container a:hover {
+    background-color: #ddd;
+  }
+
+  .social-sharing-container i {
+    margin-right: 5px;
+  }
+
+  /* Stili personalizzati per i pulsanti */
+  .social-sharing-container .fa-facebook {
+    color: #3b5998;
+  }
+
+  .social-sharing-container .fa-twitter {
+    color: #1da1f2;
+  }
+
+  .social-sharing-container .fa-instagram {
+    color: #c32aa3;
+  }
+
+  .social-sharing-container .fa-whatsapp {
+    color: #25d366;
+  }
+</style>
+<div class="social-sharing-container">
+  <p>Condividi:</p>
+  <a href="javascript:void(0)" onclick="shareFacebook()" rel="noopener noreferrer">
+    <i class="fab fa-facebook"></i> Facebook
+  </a>
+  <a href="javascript:void(0)" onclick="shareTwitter()" rel="noopener noreferrer">
+    <i class="fab fa-twitter"></i> Twitter
+  </a>
+  <a href="javascript:void(0)" onclick="shareInstagram()" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="javascript:void(0)" onclick="shareWhatsApp()" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+</div>
+
+<script>
+  function getCurrentPageUrl() {
+    return window.location.href;
+  }
+
+  function shareFacebook() {
+    var url = getCurrentPageUrl();
+    window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url), "_blank", "width=550,height=400");
+  }
+
+  function shareTwitter() {
+    var url = getCurrentPageUrl();
+    window.open("https://twitter.com/intent/tweet?url=" + encodeURIComponent(url) + "&text=Controlla questa pagina!", "_blank", "width=550,height=400");
+  }
+
+  function shareInstagram() {
+    var url = getCurrentPageUrl();
+    window.open("https://www.instagram.com/sharer.php?u=" + encodeURIComponent(url), "_blank", "width=550,height=400");
+  }
+
+  function shareWhatsApp() {
+    var url = getCurrentPageUrl();
+    window.open("https://wa.me/?text=Controlla questa pagina! " + encodeURIComponent(url), "_blank", "width=550,height=400");
+  }
+</script>

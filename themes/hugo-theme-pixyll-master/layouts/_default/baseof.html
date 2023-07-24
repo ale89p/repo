@@ -1,0 +1,15 @@
+<script>
+  function truncateText(text, maxLength, ellipsis) {
+    if (text.length <= maxLength) {
+      return text;
+    }
+
+    var truncatedText = text.substr(0, maxLength);
+    var lastSpaceIndex = truncatedText.lastIndexOf(' ');
+    if (lastSpaceIndex !== -1) {
+      truncatedText = truncatedText.substr(0, lastSpaceIndex);
+    }
+
+    return truncatedText + ellipsis;
+  }
+</script>
