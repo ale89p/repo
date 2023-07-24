@@ -34,10 +34,13 @@ jobs:
       HUGO_VERSION: 0.88.1
     steps:
       - name: Install Hugo CLI
-        run: |
-wget -O ${{ runner.temp }}/hugo.zip https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Windows-64bit.zip
-          Expand-Archive -Path ${{ runner.temp }}/hugo.zip -DestinationPath ${{ runner.temp }}/hugo
-          mv ${{ runner.temp }}/hugo/hugo.exe /usr/local/bin/hugo
+ run: |
+    $HUGO_VERSION = "0.88.1"
+    $HUGO_URL = "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Windows-64bit.zip"
+    Invoke-WebRequest -Uri $HUGO_URL -OutFile $Env:RUNNER_TEMP/hugo.zip
+    Expand-Archive -Path $Env:RUNNER_TEMP/hugo.zip -DestinationPath $Env:RUNNER_TEMP/hugo
+    Move-Item -Path $Env:RUNNER_TEMP/hugo/hugo.exe -Destination C:\tools\hugo\hugo.exe
+  shell: pwsh  # Utilizza PowerShell invece di Bash
       - name: Install Dart Sass
         run: |
           choco install sass -y  # Installa Dart Sass con Chocolatey, se necessario
