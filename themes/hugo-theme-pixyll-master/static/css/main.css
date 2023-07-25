@@ -135,6 +135,12 @@ body {
   width: 100%;
 }
 
+
+.site-header {
+  min-height: 60px;
+  background-color: #333;
+}
+
 .site-header a {
   color: #333;
   font-weight: 300;
@@ -168,6 +174,12 @@ body {
   color: #999; /* colore al passaggio del mouse=quello di nav a:hover */
   transition: color 0.2s;
   background: transparent;
+}
+
+/* Impaginazione flessibile per il .site-nav */
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 /* Stile per la linea orizzontale */
@@ -464,6 +476,8 @@ h6,
 }
 
 @media screen and (max-width: 48em) {
+
+
   .h1,
   h1 {
     font-size: 2.827rem;

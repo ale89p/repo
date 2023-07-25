@@ -762,3 +762,95 @@ a:hover {
 .transition-all {
   transition: all .2s ease;
 }
+
+/* Header con altezza costante */
+.custom-header {
+  min-height: 60px; /* Imposta l'altezza desiderata dell'header */
+  background-color: black;
+  opacity: 0.75;
+  position: fixed; /* Posizione fissa per l'header */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Assicurati che l'header sia sovrapposto al resto del contenuto */
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-space {
+  margin-right: 10px;
+}
+
+.site-nav {
+  margin-left: 300px;
+}
+
+.facebook-icon {
+  margin-left: 200px;
+}
+
+.site-header .site-title {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.site-header .site-title:hover {
+  color: white;
+}
+
+/* Aggiungiamo le regole per il menu a tendina */
+.menu-icon {
+  color: #f5f5f5;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.site-nav .icon-dropdown {
+  display: none; /* Nasconde il menu a tendina per default */
+  position: absolute;
+  top: 100%; /* Posiziona il menu a tendina sotto il tasto "Sezioni" */
+  background-color: black;
+  padding: 10px;
+  min-width: 100px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon:hover + .icon-dropdown {
+  display: block; /* Mostra il menu a tendina al passaggio del mouse sul tasto "Sezioni" */
+}
+
+.site-nav .icon-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.site-nav .icon-dropdown a:last-child {
+  margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo link del menu a tendina */
+}
+
+/* Regole per schermi più piccoli - Mostra il menu a tendina */
+@media screen and (max-width: 768px) {
+  .site-nav {
+    display: none; /* Nascondi i tasti di navigazione quando lo schermo è troppo piccolo */
+  }
+
+  .menu-icon {
+    display: block; /* Mostra il menu a tendina */
+  }
+
+  .menu-icon.active {
+    color: #999; /* Cambia il colore del menu a tendina quando è attivo */
+  }
+
+  /* Mostra i tasti di navigazione quando il menu a tendina è attivo */
+  .menu-icon.active + .site-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
