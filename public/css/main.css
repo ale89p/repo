@@ -721,21 +721,21 @@ Copyright (c) 2014 Daniel Eden
 }
 
 
-/* Header con altezza costante */
+/* Regole per l'header responsivo */
 .custom-header {
-  min-height: 60px; /* Imposta l'altezza desiderata dell'header */
   background-color: black;
   opacity: 0.75;
-  position: fixed; /* Posizione fissa per l'header */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999; /* Assicurati che l'header sia sovrapposto al resto del contenuto */
+  z-index: 999;
 }
 
 .site-header {
   display: flex;
   align-items: center;
+  padding: 10px; /* Spessore verticale dell'header */
 }
 
 .logo-space {
@@ -743,11 +743,11 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .site-nav {
-  margin-left: 300px;
+  margin-left: auto; /* Sposta il menu di navigazione a destra dell'header */
 }
 
 .facebook-icon {
-  margin-left: 200px;
+  margin-left: 10px; /* Aggiungi uno spazio tra il menu di navigazione e l'icona di Facebook */
 }
 
 .site-header .site-title {
@@ -758,6 +758,7 @@ Copyright (c) 2014 Daniel Eden
 .site-header .site-title:hover {
   color: white;
 }
+
 
 /* Aggiungiamo le regole per il menu a tendina */
 .menu-icon {
@@ -792,14 +793,21 @@ Copyright (c) 2014 Daniel Eden
   margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo link del menu a tendina */
 }
 
+/* Mostra i tasti di navigazione quando il menu a tendina è attivo */
+.site-nav.show {
+  display: flex;
+  flex-direction: row;
+}
+
+
 /* Regole per schermi più piccoli - Mostra il menu a tendina */
 @media screen and (max-width: 768px) {
   .site-nav {
-    display: none; /* Nascondi i tasti di navigazione quando lo schermo è troppo piccolo */
+    display: flex; /* Nascondi i tasti di navigazione quando lo schermo è troppo piccolo */
   }
 
   .menu-icon {
-    display: block; /* Mostra il menu a tendina */
+    display: none; /* Nascondi l'icona del menu a tendina */
   }
 
   .menu-icon.active {
@@ -810,5 +818,16 @@ Copyright (c) 2014 Daniel Eden
   .menu-icon.active + .site-nav {
     display: flex;
     flex-direction: column;
+  }
+}
+
+/* Rimuovi il menu a tendina quando la finestra è a schermo intero */
+@media screen and (min-width: 1024px) {
+  .site-nav {
+    display: flex !important; /* Forza la visualizzazione del menu a tendina quando la finestra è a schermo intero */
+  }
+
+  .menu-icon {
+    display: none; /* Nascondi l'icona del menu a tendina */
   }
 }

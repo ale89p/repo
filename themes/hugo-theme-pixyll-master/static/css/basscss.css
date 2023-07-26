@@ -854,3 +854,28 @@ a:hover {
     flex-direction: column;
   }
 }
+
+/* Stili per schermi con larghezza maggiore di 768px */
+@media screen and (min-width: 769px) {
+  .menu-icon {
+    display: none; /* Nascondi l'icona del menu a tendina */
+  }
+
+  .site-nav {
+    display: flex; /* Mostra il menu di navigazione principale come flexbox */
+    /* Aggiungi altre regole per gli stili del menu di navigazione principale se necessario */
+  }
+}
+
+/* Stili per schermi con larghezza inferiore a 768px */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Mostra l'icona del menu a tendina */
+  }
+
+  .site-nav {
+    display: none; /* Nascondi il menu di navigazione principale */
+  }
+
+  /* Aggiungi altre regole per gli stili specifici del menu a tendina se necessario */
+}

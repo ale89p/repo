@@ -4,87 +4,112 @@
       <img src="{{ .Site.BaseURL }}/images/logo-definitivo.png" alt="Logo" style="width: 200px; height: auto;">
     </a>
   </div>
-  <div class="menu-icon">☰</div> <!-- Aggiungi l'icona del menu a tendina -->
-  <nav class="site-nav center text-center">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <nav class="site-nav center text-center" id="menu">
     {{ partial "navigation.html" . }}
   </nav>
-  <a href="https://www.facebook.com/trapesiepoesie/" target="_blank" class="facebook-icon">
+  <!-- <a href="https://www.facebook.com/trapesiepoesie/" target="_blank" class="facebook-icon">
     <img src="{{ .Site.BaseURL }}/images/facebook.png" alt="Facebook" style="width: 30px; height: auto;">
-  </a>
+  </a> -->
   <div class="clearfix"></div>
 </header>
 
+<script>
+  const menuIcon = document.querySelector('.menu-icon');
+  const siteNav = document.querySelector('.site-nav');
 
+  function toggleMenu() {
+    siteNav.classList.toggle('show');
+    document.body.classList.toggle('menu-open');
+  }
 
+  function checkMenuState() {
+    if (window.innerWidth >= 769) {
+      siteNav.classList.remove('show');
+      document.body.classList.remove('menu-open');
+    }
+  }
 
-<!-- <style>
-  .custom-header {
-    background-color: black;
-    opacity: 0.75;
-     position: fixed; /* Posizione fissa per l'header */
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 999; /* Assicurati che l'header sia sovrapposto al resto del contenuto */
+  window.addEventListener('resize', checkMenuState);
+  checkMenuState();
+
+  document.addEventListener('click', function (event) {
+    if (siteNav.classList.contains('show') && !event.target.closest('.site-nav') && !event.target.closest('.menu-icon')) {
+      siteNav.classList.remove('show');
+      document.body.classList.remove('menu-open');
+    }
+  });
+</script>
+
+</header>
+<style>
+  /* Nascondi il menu a tendina per default */
+  .site-nav .dropdown-content {
+    display: none;
+  }
+
+  /* Mostra l'icona del menu a tendina solo su schermi con larghezza inferiore a 768px */
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    /* Nascondi il menu normale quando l'icona del menu a tendina è visibile */
+    .site-nav {
+      display: none;
+      margin-left: 50px;
+    }
+
+    /* Mostra il menu a tendina quando è aperto */
+    .site-nav.show {
+      display: block;
+    }
+
+    /* Nascondi il logo quando il menu a tendina è aperto */
+    .menu-open .logo-space {
+      display: none;
+    }
+  }
+
+  /* Posiziona i tasti di navigazione a sinistra quando il menu a tendina è aperto */
+ .menu-open .site-nav {
+   margin-left: 100px;
+ }
+
+ /* Stili per schermi con larghezza maggiore di 768px */
+ @media screen and (min-width: 768px) {
+   .menu-icon {
+     display: none; /* Nascondi l'icona del menu a tendina */
+     margin-left: 10px;
    }
 
-  .site-header {
-    display: flex;
-    align-items: center;
-  }
+   .site-nav {
+     display: flex; /* Mostra il menu di navigazione principale come flexbox */
+     /* Aggiungi altre regole per gli stili del menu di navigazione principale se necessario */
+   }
 
-  .logo-space {
-    margin-right: 10px;
-  }
+   /* Mostra il logo quando la finestra è a schermo intero */
+   .logo-space {
+     display: block;
+   }
+ }
 
-  .site-nav {
-    margin-left: 300px;
-  }
+ /* Rimuovi il menu a tendina quando la finestra è a schermo intero */
+ @media screen and (min-width: 1024px) {
+   .site-nav {
+     display: flex !important; /* Forza la visualizzazione del menu a tendina quando la finestra è a schermo intero */
+   }
 
-  .facebook-icon {
-    margin-left: 200px;
-  }
+   .menu-icon {
+     display: none; /* Nascondi l'icona del menu a tendina */
+     margin-left: 10px; /* Imposta il margine sinistro desiderato */
 
-  .site-header .site-title {
-    color: #f5f5f5;
-    text-decoration: none;
-  }
+   }
 
-  .site-header .site-title:hover {
-    color: white;
-  }
-
-
-
-  /* Aggiungiamo le regole per il menu a tendina */
-  .site-nav .icon:hover {
-    color: #999; /* Cambia il colore del tasto "Sezioni" al passaggio del mouse */
-  }
-
-  .site-nav .icon-dropdown {
-    display: none; /* Nasconde il menu a tendina per default */
-    position: absolute;
-    top: 100%; /* Posiziona il menu a tendina sotto il tasto "Sezioni" */
-    background-color: black;
-    padding: 10px;
-    min-width: 100px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .site-nav .icon:hover + .icon-dropdown {
-    display: block; /* Mostra il menu a tendina al passaggio del mouse sul tasto "Sezioni" */
-  }
-
-  .site-nav .icon-dropdown a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 5px;
-  }
-
-  .site-nav .icon-dropdown a:last-child {
-    margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo link del menu a tendina */
-  }
-
-</style> -->
+   /* Mostra il logo quando la finestra è a schermo intero */
+   .logo-space {
+     display: block;
+   }
+ }
+</style>
