@@ -40,8 +40,8 @@ hrefTargetBlank = true
   paginate = 5
   blog_posts = true
   author    = "Alessandro"
- description = "Descrizione del tuo sito"
- image = "/images/logo-definitivo.png"
+ description = "Sito dedicato a poesia, narrativa, arte"
+ image = "/images/serra-pelad.jpg"
 
 
   [sitemap]
