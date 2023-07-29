@@ -6,9 +6,9 @@ tags = ["poesia"]
 author = "admin"
 autore = "Lucia Gaddo Zanovello"
 draft = false
-description = "descrizione della poesia"
 image = "/images/FOTO_GADDO_4.jpg"
 +++
+
 
 <img src="/images/FOTO_GADDO_4.jpg" alt="ciao" width="100" height="300">
 
