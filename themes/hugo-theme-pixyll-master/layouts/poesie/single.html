@@ -9,6 +9,18 @@
         {{ $baseurl := .Site.BaseURL }}
       </div>
 
+      <!-- Aggiungi i metatag di Open Graph -->
+           {{ $ogTitle := .Title }}
+           {{ $ogDescription := .Params.description }}
+           {{ $ogImage := .Params.image | absURL }}
+
+           <meta property="og:title" content="{{ $ogTitle }}">
+           <meta property="og:description" content="{{ $ogDescription }}">
+           <meta property="og:image" content="{{ $ogImage }}">
+           <meta property="og:url" content="{{ .Permalink }}">
+
+
+
       <article class="post-content">
         {{ .Content }}
       </article>
