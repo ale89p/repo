@@ -8,10 +8,23 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="keywords" content="blog, poesia, narrativa, fotografia">
-  
+  <!-- Aggiungi i metatag di Open Graph -->
+   {{ $ogTitle := .Title }}
+   {{ $ogDescription := .Params.description }}
+   {{ $ogImage := replace .Params.image "/images/" "/repo/images/" | absURL }}
+   <!-- Verifica il valore del campo "image" nel frontmatter -->
+   {{ if not $ogImage }}
+   <!-- Se il campo "image" nel frontmatter non è presente, usa un'immagine di default -->
+   {{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
+   {{ end }}
+   <!-- Meta tag di Open Graph -->
+  <meta property="og:title" content="{{ $ogTitle }}">
+  <meta property="og:description" content="{{ $ogDescription }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+
   <link rel="canonical" href="{{ .Permalink }}">
   <script src="https://kit.fontawesome.com/91fcd7bb06.js" crossorigin="anonymous"></script>
-
 
   <!-- Custom CSS -->
   <!-- Those css minifined and combined together. See combined-min.css below -->
@@ -27,6 +40,7 @@
 
   <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/combined-min.css">
   {{ if isset .Site.Params "search_engine" }}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/tipuesearch/tipuesearch.css">{{ end }}
+
 
 </head>
 <body class="">

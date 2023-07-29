@@ -1,22 +1,4 @@
 {{ partial "head.html" . }}
-<!-- Aggiungi i metatag di Open Graph -->
-{{ $ogTitle := .Title }}
-{{ $ogDescription := .Params.description }}
-{{ $ogImage := replace .Params.image "/images/" "/repo/images/" | absURL }}
-<!-- Verifica il valore del campo "image" nel frontmatter -->
-{{ if not $ogImage }}
-<!-- Se il campo "image" nel frontmatter non è presente, usa un'immagine di default -->
-{{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
-{{ end }}
-<!-- Stampa l'URL dell'immagine -->
-<!-- <p>Debug Image: {{ $ogImage }}</p> -->
-
-
-     <meta property="og:title" content="{{ $ogTitle }}">
-     <meta property="og:description" content="{{ $ogDescription }}">
-     <meta property="og:image" content="{{ $ogImage }}">
-     <meta property="og:url" content="{{ .Permalink }}">
-
 
 <div class="site-wrap">
   {{ partial "header.html" . }}
@@ -35,7 +17,7 @@
       </article>
 
       <!-- Passa i parametri del post al tuo shortcode "social_sharing.html" -->
-      {{ partial "social_sharing.html" (dict "image" $ogImage) }}
+      {{ partial "social_sharing.html" }}
 
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
 <p class="post-meta"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;
