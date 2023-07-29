@@ -14,6 +14,11 @@
   {{ $ogDescription := .Params.description }}
   {{ $ogImage := replace .Params.image "/images/" "/repo/images/" | absURL }}
   <!-- Verifica il valore del campo "image" nel frontmatter -->
+  {{ if not $ogImage }}
+    <!-- Se il campo "image" nel frontmatter non è presente, usa un'immagine di default -->
+    {{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
+  {{ end }}
+  <!-- Stampa l'URL dell'immagine -->
   <p>Debug Image: {{ $ogImage }}</p>
 
 
