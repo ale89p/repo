@@ -25,6 +25,8 @@
 
 <!-- layouts/shortcodes/poesie_summary.html -->
 
+
+
 <div class="blog-summary">
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts.ByDate.Reverse }}

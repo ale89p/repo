@@ -58,6 +58,3 @@ Fra le righe dell'afflato religioso, che pur emerge dirompente dalle opere di Sa
 
 
  </p>
-
-
- {{< social_sharing >}}

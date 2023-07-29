@@ -5,6 +5,8 @@ type = ["poesie"]
 tags = ["poesia"]
 author = "admin"
 autore = "Cassiano Ricardo"
+image  = ""
+description = "descrizione della poesia"
 draft = false
 +++
 
@@ -41,6 +43,3 @@ dell'identificazione.
 
 
 Cassiano Ricardo ( da *A face perdida*, traduzione di Ruggero Jacobbi)<br>
-
-
-{{< social_sharing >}}

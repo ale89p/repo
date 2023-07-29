@@ -6,6 +6,7 @@ tags = ["poesia"]
 author = "admin"
 autore = "Lucia Gaddo Zanovello"
 draft = false
+description = "descrizione della poesia"
 image = "/images/FOTO_GADDO_4.jpg"
 +++
 
@@ -29,5 +30,3 @@ vessilli ridenti
 al vento d'essere.  <br>
 
 Lucia Gaddo Zanovello, *Vele al Venda*.
-
-{{< social_sharing >}}

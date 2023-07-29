@@ -1,7 +1,7 @@
 +++
 title = "Una voce a Faedo: Lucia Gaddo Zanovello"
 date = "2023-07-01T18:34:02+00:00"
-tags = ["blog"]
+tags = ["blog", "poesia"]
 categories = ["post"]
 draft = false
 author = "admin"
@@ -94,5 +94,3 @@ Anche ciascun sentimento possiede un suo proprio talento e capacità di comprend
 Le facoltà intuitive, attraverso le figure e i traslati, interagiscono veloci, arricchendo la nostra mente di stupore, che è il sapore dei giorni, così come quel tocco connotativo attribuito alle parole e alle forme particolari inventate dal poeta mettono a disposizione dell’altro la fresca vivacità dell’esistere, tenendo lontano ciò che di generico, indeterminato e vano farebbe sì che vita autentica non fosse.
 
 Forse non era solo immaginazione, come poco fa richiamavo alla memoria, che  silenzio e solitudine fossero la pagina bianca da cui emergevano parole.
-
-{{< social_sharing >}}

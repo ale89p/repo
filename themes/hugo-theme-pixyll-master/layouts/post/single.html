@@ -10,11 +10,14 @@
       </div>
 
       <article class="post-content">
-      {{ .Content }}
+        {{ .Content }}
       </article>
 
+      <!-- Passa le variabili del post al tuo shortcode "social_sharing.html" -->
+      {{ partial "social_sharing.html" . }}
+
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
-      <p class="post-meta">{{ i18n "tags" }}:&nbsp;
+      <p class="post-meta"><i class="fa fa-tags"></i>&nbsp;
         {{ range $i, $e := .Params.tags }}
             {{if $i}},&nbsp;{{end}}
             <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
@@ -28,12 +31,11 @@
       {{ $authorBio := readFile (printf "content/%s" $authorFilePath) }}
 
       {{ if $authorBio }}
-        <hr class="post-separator">  
+        <hr class="post-separator">
         <div class="author-bio">
           <p>{{ $authorBio | markdownify }}</p>
         </div>
       {{ end }}
-
 
       {{ partial "comments.html" . }}
     </div>
