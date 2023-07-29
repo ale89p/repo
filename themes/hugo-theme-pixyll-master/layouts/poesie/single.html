@@ -1,4 +1,5 @@
 {{ partial "head.html" . }}
+<meta property="og:image" content="{{ .Params.image | absURL }}">
 <div class="site-wrap">
   {{ partial "header.html" . }}
   <div class="poesie-single p2 p-responsive wrap" role="main">
