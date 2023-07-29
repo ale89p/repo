@@ -28,8 +28,8 @@
         {{ .Content }}
       </article>
 
-      <!-- Passa le variabili del post al tuo shortcode "social_sharing.html" -->
-    {{ partial "social_sharing.html" (dict "title" .Title "description" .Description "image" .Params.image) }}
+      <!-- Passa i parametri del post al tuo shortcode "social_sharing.html" -->
+      {{ partial "social_sharing.html" (dict "image" $ogImage) }}
 
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
 <p class="post-meta"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;
