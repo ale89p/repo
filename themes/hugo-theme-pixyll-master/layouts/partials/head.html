@@ -3,25 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <title>{{ if eq .Type "page" }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="keywords" content="blog, poesia, narrativa, fotografia">
+  <meta name="description" content="{{ if eq .Type "page" }}{{ .Site.Params.description }}{{ else }}{{ .Params.description }}{{ end }}">
+  <meta name="author" content="{{ if eq .Type "page" }}{{ .Site.Params.author }}{{ else }}{{ .Params.author }}{{ end }}">
+  <meta name="keywords" content="blog, poesia, narrativa, fotografia">  <!-- Aggiungi i metatag di Open Graph -->
   <!-- Aggiungi i metatag di Open Graph -->
-   {{ $ogTitle := .Title }}
-   {{ $ogDescription := .Params.description }}
-   {{ $ogImage := replace .Params.image "/images/" "/repo/images/" | absURL }}
-   <!-- Verifica il valore del campo "image" nel frontmatter -->
-   {{ if not $ogImage }}
-   <!-- Se il campo "image" nel frontmatter non è presente, usa un'immagine di default -->
-   {{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
-   {{ end }}
-   <!-- Meta tag di Open Graph -->
-  <meta property="og:title" content="{{ $ogTitle }}">
-  <meta property="og:description" content="{{ $ogDescription }}">
-  <meta property="og:image" content="{{ $ogImage }}">
-  <meta property="og:url" content="{{ .Permalink }}">
+  {{ $ogTitle := .Title }}
+  {{ $ogDescription := "" }}
+  {{ $ogImage := "" }}
+
+  {{ if eq .Type "page" }}
+    {{ $ogDescription = .Site.Params.description }}
+    {{ $ogImage = .Site.Params.image | absURL }}
+  {{ else }}
+    {{ $ogDescription = .Params.description }}
+    {{ $ogImage = .Params.image | absURL }}
+  {{ end }}
+
+  {{ $ogImage = replace $ogImage "/images/" "/repo/images/" }}
+
+  {{ if not $ogImage }}
+    {{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
+  {{ end }}
+<!-- Meta tag di Open Graph -->
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $ogDescription }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:url" content="{{ .Permalink }}">
 
   <link rel="canonical" href="{{ .Permalink }}">
   <script src="https://kit.fontawesome.com/91fcd7bb06.js" crossorigin="anonymous"></script>

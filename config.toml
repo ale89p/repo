@@ -39,6 +39,10 @@ hrefTargetBlank = true
   twitter_username = "username"
   paginate = 5
   blog_posts = true
+  author    = "Alessandro"
+ description = "Descrizione del tuo sito"
+ image = "/images/bg.jpg"
+
 
   [sitemap]
     changefreq = 'weekly'
