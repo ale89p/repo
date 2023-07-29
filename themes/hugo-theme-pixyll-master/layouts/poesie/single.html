@@ -13,6 +13,8 @@
            {{ $ogTitle := .Title }}
            {{ $ogDescription := .Params.description }}
            {{ $ogImage := .Params.image | absURL }}
+           <!-- Verifica il valore del campo "image" nel frontmatter -->
+           <p>Debug Image: {{ $ogImage }}</p>
 
            <meta property="og:title" content="{{ $ogTitle }}">
            <meta property="og:description" content="{{ $ogDescription }}">
