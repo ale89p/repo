@@ -1,4 +1,10 @@
+           <meta property="og:title" content="{{ $ogTitle }}">
+           <meta property="og:description" content="{{ $ogDescription }}">
+           <meta property="og:image" content="{{ $ogImage }}">
+           <meta property="og:url" content="{{ .Permalink }}">
+
 {{ partial "head.html" . }}
+
 <div class="site-wrap">
   {{ partial "header.html" . }}
   <div class="poesie-single p2 p-responsive wrap" role="main">
@@ -20,12 +26,6 @@
   {{ end }}
   <!-- Stampa l'URL dell'immagine -->
   <p>Debug Image: {{ $ogImage }}</p>
-
-
-           <meta property="og:title" content="{{ $ogTitle }}">
-           <meta property="og:description" content="{{ $ogDescription }}">
-           <meta property="og:image" content="{{ $ogImage }}">
-           <meta property="og:url" content="{{ .Permalink }}">
 
 
 
