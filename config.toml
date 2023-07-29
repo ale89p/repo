@@ -41,7 +41,7 @@ hrefTargetBlank = true
   blog_posts = true
   author    = "Alessandro"
  description = "Descrizione del tuo sito"
- image = "/images/bg.jpg"
+ image = "/images/logo-definitivo.png"
 
 
   [sitemap]
