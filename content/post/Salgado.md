@@ -26,9 +26,9 @@ Dunque, l'immagine mostra il mondo durante, o un istante dopo, la Creazione.
 Il punto è che questo grosso tomo, per il breve tempo che ho avuto modo di maneggiarlo, mi ha intimato di sfogliarlo, di tuffarmici dentro, innescando una catena fatta di urgenze di conoscere, intervallate da fugaci, intensi appagamenti.
 
 **Salgado** abbraccia il punto di vista -- controtendenza e paradossale, probabilmente -- secondo il quale, a dispetto dei danni provocati dall'uomo, grandi porzioni della Terra si trovano ancora in condizioni simili a quelle degli albori, come nel momento della Genesi biblica, per l'appunto. Se l'opera si presenta in una forma così monumentale, forse è proprio per il desiderio di esaltare il carattere sacro dell'esistenza di *tutti* i regni terrestri. Vi si legge un'ambizione a farsi Sacra Scrittura, o piuttosto rappresentazione di una **Sacra Luce** del mondo.
-<div style="float: right; max-width: 70%; margin: 0 auto;">
+<div style="float: right; max-width: 100%; margin: 0 auto;">
     <figure style="text-align: left; max-width: 150%;">
-        <img src="/images/salgado-pinguini-vulcano.jpg" alt="salgado-pinguini" title="Genesi-Salgado" style="max-width: 100%; margin-left: 0;">
+        <img src="/images/salgado-pinguini-vulcano.jpg" alt="salgado-pinguini" title="Pinguini Salgado" style="max-width: 100%; margin-left: 0;">
         <figcaption style="font-size: small; padding-top: 8px; line-height: 1.5;">Una colonia di pinguini ai piedi del vulcano Erebus (tratta da <i>Genesi</i>)</figcaption>
     </figure>
 </div>
@@ -42,11 +42,13 @@ L'idea chiave è dimostrare che, nonostante lo sviluppo tecnologico, il sistema 
 le catastrofi, il rischio di annientamento nucleare, le guerre, i cambiamenti climatici, le migrazioni forzate,
 esiste -- e *resiste* --  una porzione straordinariamente grande del Pianeta ancora del tutto incontaminata.
 
-
-<figure>
+<div style="max-width: 100%; margin: 0 auto;">
+<figure style="text-align: left; max-width: 150%;">
     <img src="/images/serra-pelada.jpg" alt="salgado-serra-pelada" width="200" height="400" title="Salgado Serra Pelada" style="width: 100%;">
     <figcaption style="font-size: small; padding-top: 8px; line-height: 1.5;">La miniera di Serra Pelada, in Brasile (tratta da <i>Workers</i>) </figcaption>
 </figure>
+</div>
+
 
 Salgado, dopo aver documentato fenomeni più marcatamente umani in ***Workers*** (1986-1991), ed ***Exodus*** (1993-1999) offre
 forse in Genesi il tributo più grande alla propria specie, suggerendo la via per un processo di riconciliazione. Il tentativo di
