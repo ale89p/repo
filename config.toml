@@ -41,7 +41,7 @@ hrefTargetBlank = true
   blog_posts = true
   author    = "Alessandro"
  description = "Sito dedicato a poesia, narrativa, arte"
- image = "/images/serra-pelada.jpg"
+ # inserire immagine valida image = "/images/.jpg" 
 
 
   [sitemap]

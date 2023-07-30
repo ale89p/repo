@@ -100,8 +100,30 @@ html, body {
 }
 
 img {
-  width: auto;
   max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+/* Regole per le immagini responsive */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+ margin: 0 auto;
+}
+
+.caption {
+  font-size: small;
+  padding-top: 8px;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .site-wrap {
