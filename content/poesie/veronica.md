@@ -23,7 +23,7 @@ dagli occhi, cadono dal corpo.
 Le peggiori, perché  
 lacrime solo fisiche.  
 Proprie della materia  
-in ciò ch'essa possiede
+in ciò ch'essa possiede  
 di tragico e di folto.  
 
 

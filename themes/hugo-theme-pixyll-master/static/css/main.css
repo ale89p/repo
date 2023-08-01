@@ -252,6 +252,12 @@ body {
     width: 100%; /* Possiamo impostare la larghezza al 100% per estendere il riepilogo */
 }
 
+/* Aggiungi uno spazio tra l'header e l'inizio del sommario */
+.post {
+  margin-top: 25px; /* Regola il valore del margine superiore come preferisci */
+}
+
+
 .posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;

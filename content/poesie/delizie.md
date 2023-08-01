@@ -10,7 +10,7 @@ image = "/images/FOTO_GADDO_4.jpg"
 +++
 
 
-<img src="/images/FOTO_GADDO_4.jpg" alt="ciao" width="100" height="300">
+<img src="/images/FOTO_GADDO_4.jpg" alt="ciao" width="50%">
 
 <br> <!-- Primo spazio tra l'immagine e il testo -->
 È buono fino in fondo  

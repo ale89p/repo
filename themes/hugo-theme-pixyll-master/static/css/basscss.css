@@ -881,5 +881,9 @@ a:hover {
     display: none; /* Nascondi il menu di navigazione principale */
   }
 
-  /* Aggiungi altre regole per gli stili specifici del menu a tendina se necessario */
+  /* Aggiungi un margine superiore al titolo dei post */
+   .post-header {
+     margin-top: 60px; /* Puoi regolare il valore del margine come preferisci */
+   }  
+
 }
