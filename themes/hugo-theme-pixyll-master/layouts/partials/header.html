@@ -70,6 +70,18 @@
     .menu-open .logo-space {
       display: none;
     }
+
+    /* Stili per i link del menu di navigazione */
+.menu-link {
+  margin-right: 0px; /* Imposta il margine destro desiderato tra i link */
+  color: white; /* Cambia il colore del testo (se necessario) */
+  text-decoration: none; /* Rimuovi il sottolineato dai link */
+}
+
+/* Nascondi l'ultimo margine destro tra i link */
+.menu-link:last-child {
+  margin-right: 0;
+}
   }
 
   /* Posiziona i tasti di navigazione a sinistra quando il menu a tendina è aperto */
@@ -94,6 +106,8 @@
      display: block;
    }
  }
+
+
 
  /* Rimuovi il menu a tendina quando la finestra è a schermo intero */
  @media screen and (min-width: 1024px) {

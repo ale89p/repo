@@ -1,13 +1,14 @@
-<a href="{{ .Site.BaseURL }}"><i class="fa fa-home"></i> {{ i18n "home" }}</a>
-<div class="dropdown">
-  <button class="dropbtn">☰ {{ i18n "sections" }}</button>
+
+<!-- <div class="dropdown"> -->
+  <!-- <button class="dropbtn">☰ {{ i18n "sections" }}</button>
   <div class="dropdown-content">
     <a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/blog"><i class="fa fa-file-alt"></i> {{ i18n "blog" }}</a>
     <a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/poesia"><i class="fa fa-feather-alt"></i> {{ i18n "poesia" }}</a>
-  </div>
-</div>
-<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/about/"><i class="fa fa-user"></i> {{ i18n "about" }}</a>
-<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/contact/"><i class="fa fa-envelope"></i> {{ i18n "contact" }}</a>
+  </div> -->
+<!-- </div> -->
+<a href="{{ .Site.BaseURL }}" class="menu-link"><i class="fa fa-home"></i> {{ i18n "home" }}</a>
+<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/about/" class="menu-link"><i class="fa fa-user"></i> {{ i18n "about" }}</a>
+<a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/contact/" class="menu-link"><i class="fa fa-envelope"></i> {{ i18n "contact" }}</a>
 
 
 <!-- {{ if isset .Site.Params "search_engine" }}
