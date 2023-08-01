@@ -29,7 +29,7 @@ Il punto è che questo grosso tomo, per il breve tempo che ho avuto modo di mane
 <div style="float: right; max-width: 100%; margin: 0 auto;">
     <figure style="text-align: left; max-width: 150%;">
         <img src="/images/salgado-pinguini-vulcano.jpg" alt="salgado-pinguini" title="Pinguini Salgado" style="max-width: 100%; margin-left: 0;">
-        <figcaption style="font-size: small; padding-top: 8px; line-height: 1.5;">Una colonia di pinguini ai piedi del vulcano Erebus (tratta da <i>Genesi</i>)</figcaption>
+        <figcaption style="font-size: small; padding-top: 8px; line-height: 1.5;">Una colonia di pinguini ai piedi del vulcano Erebus, in Antartide (tratta da <i>Genesi</i>)</figcaption>
     </figure>
 </div>
  <br>
