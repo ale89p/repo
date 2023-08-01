@@ -853,6 +853,10 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+
+  .footer {
+   display: block;
+ }
 }
 
 /* Stili per schermi con larghezza maggiore di 768px */
