@@ -230,6 +230,12 @@ body {
 
 }
 
+/* Imposta una larghezza fissa per l'immagine di copertina nel sommario */
+.post .post-image {
+  max-width: 100%; /* Imposta una larghezza massima del 100% */
+  width: auto; /* Imposta la larghezza automatica per adattarsi al contenuto */
+}
+
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
@@ -599,6 +605,9 @@ h6,
 footer {
   border-top: thin solid #f3f3f3;
 }
+
+
+
 
 footer,
 footer .wrap {
