@@ -39,7 +39,7 @@ hrefTargetBlank = true
   paginate = 5
   blog_posts = true
   author    = "Alessandro"
- description = "Sito dedicato a poesia, narrativa, arte"
+  description = "Sito dedicato a poesia, narrativa, arte"
  # inserire immagine valida image = "/images/.jpg"
 
 
