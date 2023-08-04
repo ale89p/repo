@@ -30,7 +30,6 @@ hrefTargetBlank = true
 [indexes]
   category = "categories"
   tag = "tags"
-  poesie = "poesie"
 
 [params]
   mainSections = ["post", "poesie"]
@@ -41,7 +40,7 @@ hrefTargetBlank = true
   blog_posts = true
   author    = "Alessandro"
  description = "Sito dedicato a poesia, narrativa, arte"
- # inserire immagine valida image = "/images/.jpg" 
+ # inserire immagine valida image = "/images/.jpg"
 
 
   [sitemap]
