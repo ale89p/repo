@@ -4,12 +4,9 @@ draft = false
 title = "Contatti"
 slug = "contact"
 +++
-<hr>
-
-
 Se hai delle osservazioni su ciò che hai trovato in questo blog, se vuoi esprimere il tuo apprezzamento o muovere delle critiche, se desideri proporre una **collaborazione** o **pubblicare** un tuo scritto, compila il form qui sotto, specificando di che si tratta.
 
-Se vuoi proporre una collaborazione o una pubblicazione, innanzitutto raccontaci di te in poche righe, senza esagerare con i dettagli e spiegandoci il motivo del tuo interesse. Si accettano collaborazioni anche da parte di **illustratori, web designer**  etc.
+Per proporre una collaborazione o una pubblicazione, innanzitutto raccontaci di te in poche righe, senza esagerare con i dettagli e spiegandoci il motivo del tuo interesse. Si accettano collaborazioni anche da parte di **illustratori, web designer**  etc.
 
 
 <style>
@@ -46,18 +43,39 @@ Se vuoi proporre una collaborazione o una pubblicazione, innanzitutto raccontaci
 </style>
 
 <div class="py2">
-  <form action="//formspree.io/your@email.address" method="POST" class="form-stacked form-light">
-    <input type="text" name="name" class="input mobile-block" placeholder="Nome">
-    <input type="text" name="email" class="input mobile-block" placeholder="Il tuo indirizzo e-mail">
+  <form action="https://formspree.io/f/xgejonav" method="POST" class="form-stacked form-light" id="contact-form">
+    <input type="text" name="name" class="input mobile-block" placeholder="Nome" required>
+    <input type="text" name="email" class="input mobile-block" placeholder="Il tuo indirizzo e-mail" required>
     <div class="select-wrapper">
-      <select name="subject" class="input mobile-block">
+      <select name="subject" class="input mobile-block" required>
         <option value="" selected disabled>Tipo di richiesta</option>
         <option value="suggerimento">Suggerimento</option>
         <option value="collaborazione">Collaborazione</option>
         <option value="pubblicazione">Pubblicazione</option>
       </select>
     </div>
-    <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="Inserisci qui il tuo messaggio"></textarea>
+    <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="Inserisci qui il tuo messaggio" required></textarea>
     <input type="submit" class="button button-blue button-big mobile-block" value="Invia">
   </form>
 </div>
+
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    var form = event.target;
+    var fields = form.querySelectorAll("[required]");
+    var isValid = true;
+
+    for (var i = 0; i < fields.length; i++) {
+      if (!fields[i].value.trim()) {
+        isValid = false;
+        fields[i].classList.add("error");
+      } else {
+        fields[i].classList.remove("error");
+      }
+    }
+
+    if (!isValid) {
+      event.preventDefault();
+    }
+  });
+</script>
