@@ -1,6 +1,6 @@
 archetypeDir           = "archetypes"
 author                 = "admin"
-baseUrl                = "http://localhost:1313"
+baseUrl                = "https://trapesiepoesie.it"
 buildDrafts            = false
 relativeURLs           = true
 canonifyUrls           = true
