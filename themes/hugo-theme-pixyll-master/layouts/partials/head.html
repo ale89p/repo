@@ -21,7 +21,7 @@
     {{ $ogImage = .Params.image | absURL }}
   {{ end }}
 
-  {{ $ogImage = replace $ogImage "/images/" "/repo/images/" }}
+  {{ $ogImage = replace $ogImage "/images/" "/images/" }}
 
   {{ if not $ogImage }}
     {{ $ogImage = "URL-IMMAGINE-DEFAULT" | absURL }}
