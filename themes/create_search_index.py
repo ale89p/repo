@@ -21,7 +21,7 @@ def walker(path):
 
 # Takes html page and outputs json object
 def parser(page):
-    soup = BeautifulSoup(open(page, 'r'), features="html.parser")
+    soup = BeautifulSoup(open(page, 'r'))
     node = {}
     try:
         node['title'] = soup.title.get_text(' ', strip=True).replace('&nbsp;', ' ').replace('^', '&#94;')

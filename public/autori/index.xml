@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autoris on trapesiepoesie</title><link>http://localhost:1313/autori/</link><description>Recent content in Autoris on trapesiepoesie</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://localhost:1313/autori/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://localhost:1313/autori/cassiano-ricardo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/autori/cassiano-ricardo/</guid><description/></item><item><title/><link>http://localhost:1313/autori/lucia-gaddo-zanovello/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/autori/lucia-gaddo-zanovello/</guid><description>Lucia Gaddo Zanovello è nata a Padova nel 1951. Ha esordito come poetessa nel 1978, con la raccolta Porto Antico (Edigam Editore, 1978). Nello stesso anno è entrata a far parte del Gruppo Letterario Formica Nera. Ha ricevuto numerosi premi e riconoscimenti letterari.
-Ha un blog
-nel quale potete trovare alcune delle sue opere.</description></item><item><title/><link>http://localhost:1313/autori/salgado/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/autori/salgado/</guid><description>Sebastião Salgado
-(Aimorés, 8 febbraio 1944) è un fotografo brasiliano, fra i più noti al mondo. Tra le sue opere più importanti ci sono Workers (1993), Migrations (2000) e Genesis (2013). Il film documentario &amp;ldquo;Il sale della terra&amp;rdquo; (2014, regia di Wim Wenders e Juliano Ribeiro Salgado), offre uno spaccato dettagliato sulla vita e sulle opere del fotografo.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autoris on trapesiepoesie</title>
+    <link>http://localhost:1313/autori/</link>
+    <description>Recent content in Autoris on trapesiepoesie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/autori/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/autori/cassiano-ricardo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/autori/cassiano-ricardo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/autori/lucia-gaddo-zanovello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/autori/lucia-gaddo-zanovello/</guid>
+      <description>Lucia Gaddo Zanovello è nata a Padova nel 1951. Ha esordito come poetessa nel 1978, con la raccolta Porto Antico (Edigam Editore, 1978). Nello stesso anno è entrata a far parte del Gruppo Letterario Formica Nera. Ha ricevuto numerosi premi e riconoscimenti letterari.
+Ha un blognel quale potete trovare alcune delle sue opere.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/autori/salgado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/autori/salgado/</guid>
+      <description>Sebastião Salgado(Aimorés, 8 febbraio 1944) è un fotografo brasiliano, fra i più noti al mondo. Tra le sue opere più importanti ci sono Workers (1993), Migrations (2000) e Genesis (2013). Il film documentario &amp;ldquo;Il sale della terra&amp;rdquo; (2014, regia di Wim Wenders e Juliano Ribeiro Salgado), offre uno spaccato dettagliato sulla vita e sulle opere del fotografo.</description>
+    </item>
+    
+  </channel>
+</rss>

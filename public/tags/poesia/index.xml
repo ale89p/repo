@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>poesia on trapesiepoesie</title><link>http://localhost:1313/tags/poesia/</link><description>Recent content in poesia on trapesiepoesie</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/poesia/index.xml" rel="self" type="application/rss+xml"/><item><title>Veronica</title><link>http://localhost:1313/poesie/veronica/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/poesie/veronica/</guid><description>Subito dopo il comizio,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poesia on trapesiepoesie</title>
+    <link>http://localhost:1313/tags/poesia/</link>
+    <description>Recent content in poesia on trapesiepoesie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/poesia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veronica</title>
+      <link>http://localhost:1313/poesie/veronica/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/poesie/veronica/</guid>
+      <description>Subito dopo il comizio,
 una donna del popolo
 mi vide pieno di rose,
 le ferite. E di sudore,
@@ -8,12 +23,21 @@ dagli occhi, cadono dal corpo.
 Le peggiori, perché
 lacrime solo fisiche.
 Proprie della materia
-in ciò ch&amp;rsquo;essa possiede di tragico e di folto.
+in ciò ch&amp;rsquo;essa possiede
+di tragico e di folto.
 Una donna del popolo
 vedendomi così, volle asciugarmi
 il viso, ma fece di più.
-Colse le mie rose, ma fece</description></item><item><title>Delizie</title><link>http://localhost:1313/poesie/delizie/</link><pubDate>Sun, 02 Jul 2023 19:34:02 +0000</pubDate><guid>http://localhost:1313/poesie/delizie/</guid><description>
-È buono fino in fondo
+Colse le mie rose, ma fece</description>
+    </item>
+    
+    <item>
+      <title>Delizie</title>
+      <link>http://localhost:1313/poesie/delizie/</link>
+      <pubDate>Sun, 02 Jul 2023 19:34:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/poesie/delizie/</guid>
+      <description>È buono fino in fondo
 il bicchiere che disseta
 e il pane delle meraviglie
 che sfama d&amp;rsquo;esser vivi.
@@ -27,10 +51,27 @@ al bene del mondo.
 Siamo qui per questo
 per inalberare
 vessilli ridenti
-al vento d&amp;rsquo;essere. Lucia Gaddo Zanovello, Vele al Venda.
-Condividi:
-Facebook
-Twitter
-Instagram
-WhatsApp</description></item><item><title>Jannacci, Cassiano Ricardo e un telegrafista</title><link>http://localhost:1313/post/cassiano/</link><pubDate>Wed, 28 Jun 2023 19:34:02 +0000</pubDate><guid>http://localhost:1313/post/cassiano/</guid><description>C'è sempre un motivo per cui veniamo a conoscenza di ciò che ancora non conosciamo. Fra le innumerevoli informazioni da cui ci lasciamo attraversare, senza concedere loro nemmeno un fremito, accade talvolta che una nuova parola irrompa in noi, che bussi alla nostra porta in modo del tutto inatteso, non sperato. Dice Cassiano Ricardo, nella sua poesia Il suonatore di clarinetto:
-Ma quando sentirai, nell'oscurità, la goccia cadere sul triste terreno, lì, allora, sarò io che batto sulla pietra del tuo cuore.</description></item></channel></rss>
+al vento d&amp;rsquo;essere. Lucia Gaddo Zanovello, Vele al Venda.</description>
+    </item>
+    
+    <item>
+      <title>Una voce a Faedo: Lucia Gaddo Zanovello</title>
+      <link>http://localhost:1313/post/lucia-gaddo/</link>
+      <pubDate>Sat, 01 Jul 2023 18:34:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/lucia-gaddo/</guid>
+      <description>La chiesa di San Pietro, tre o quattro case, a pochi passi il cimitero. A pensarci bene, nel breve tratto di terra che circonda la chiesa di Faedo, ci sono più morti che vivi. Eppure la vita non è spenta, né morente: solo sopita. Passare di lì per caso, non in un qualsiasi giorno di festa, ma durante la sagra, la borgata traboccante automobili, persone, voci umane, versi di animali, campane.</description>
+    </item>
+    
+    <item>
+      <title>Jannacci, Cassiano Ricardo e un telegrafista</title>
+      <link>http://localhost:1313/post/cassiano/</link>
+      <pubDate>Wed, 28 Jun 2023 19:34:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/cassiano/</guid>
+      <description>C&amp;rsquo;è sempre un motivo per cui veniamo a conoscenza di ciò che ancora non conosciamo. Fra le innumerevoli informazioni da cui ci lasciamo attraversare, senza concedere loro nemmeno un fremito, accade talvolta che una nuova parola irrompa in noi, che bussi alla nostra porta in modo del tutto inatteso, non sperato. Dice Cassiano Ricardo, nella sua poesia Il suonatore di clarinetto:
+Ma quando sentirai, nell&amp;rsquo;oscurità, la goccia cadere sul triste terreno, lì, allora, sarò io che batto sulla pietra del tuo cuore.</description>
+    </item>
+    
+  </channel>
+</rss>

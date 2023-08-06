@@ -91,7 +91,6 @@
 
 
 
-
 body {
   font-family: "Ubuntu", "PT Serif", Georgia, "Times New Roman", serif;
 }
@@ -101,8 +100,30 @@ html, body {
 }
 
 img {
-  width: auto;
   max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+/* Regole per le immagini responsive */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+ margin: 0 auto;
+}
+
+.caption {
+  font-size: small;
+  padding-top: 8px;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .site-wrap {
@@ -119,6 +140,11 @@ img {
   height: 120px;
 }
 
+.footer {
+  width: 100%;
+}
+
+
 body {
   font-size: 1.5rem;
 
@@ -134,6 +160,12 @@ body {
 
 .gist .lines {
   width: 100%;
+}
+
+
+.site-header {
+  min-height: 60px;
+  background-color: #333;
 }
 
 .site-header a {
@@ -171,10 +203,11 @@ body {
   background: transparent;
 }
 
-
-
-
-
+/* Impaginazione flessibile per il .site-nav */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 
 /* Stile per la linea orizzontale */
 .post-separator {
@@ -194,6 +227,13 @@ body {
 .posts .post a:hover .post-title,
 .posts .post a:hover .post-summary {
   opacity: 0.88;
+
+}
+
+/* Imposta una larghezza fissa per l'immagine di copertina nel sommario */
+.post .post-image {
+  max-width: 100%; /* Imposta una larghezza massima del 100% */
+  width: auto; /* Imposta la larghezza automatica per adattarsi al contenuto */
 }
 
 .related-post-title {
@@ -217,6 +257,12 @@ body {
     border-bottom: thin solid #f3f3f3;
     width: 100%; /* Possiamo impostare la larghezza al 100% per estendere il riepilogo */
 }
+
+/* Aggiungi uno spazio tra l'header e l'inizio del sommario */
+.post {
+  margin-top: 25px; /* Regola il valore del margine superiore come preferisci */
+}
+
 
 .posts .post:last-child {
   border-bottom: none;
@@ -375,8 +421,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 900;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   margin: 0.414em 0 0.5em;
 }
@@ -470,6 +516,8 @@ h6,
 }
 
 @media screen and (max-width: 48em) {
+
+
   .h1,
   h1 {
     font-size: 2.827rem;
@@ -510,8 +558,6 @@ h6,
     text-align: center;
     float: none;
   }
-
-
 }
 
 @media screen and (min-width: 64em) {
@@ -559,6 +605,9 @@ h6,
 footer {
   border-top: thin solid #f3f3f3;
 }
+
+
+
 
 footer,
 footer .wrap {
@@ -718,116 +767,4 @@ Copyright (c) 2014 Daniel Eden
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-
-/* Regole per l'header responsivo */
-.custom-header {
-  background-color: black;
-  opacity: 0.75;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-
-.site-header {
-  display: flex;
-  align-items: center;
-  padding: 10px; /* Spessore verticale dell'header */
-}
-
-.logo-space {
-  margin-right: 10px;
-}
-
-.site-nav {
-  margin-left: auto; /* Sposta il menu di navigazione a destra dell'header */
-}
-
-.facebook-icon {
-  margin-left: 10px; /* Aggiungi uno spazio tra il menu di navigazione e l'icona di Facebook */
-}
-
-.site-header .site-title {
-  color: #f5f5f5;
-  text-decoration: none;
-}
-
-.site-header .site-title:hover {
-  color: white;
-}
-
-
-/* Aggiungiamo le regole per il menu a tendina */
-.menu-icon {
-  color: #f5f5f5;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.site-nav .icon-dropdown {
-  display: none; /* Nasconde il menu a tendina per default */
-  position: absolute;
-  top: 100%; /* Posiziona il menu a tendina sotto il tasto "Sezioni" */
-  background-color: black;
-  padding: 10px;
-  min-width: 100px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.menu-icon:hover + .icon-dropdown {
-  display: block; /* Mostra il menu a tendina al passaggio del mouse sul tasto "Sezioni" */
-}
-
-.site-nav .icon-dropdown a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-
-.site-nav .icon-dropdown a:last-child {
-  margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo link del menu a tendina */
-}
-
-/* Mostra i tasti di navigazione quando il menu a tendina è attivo */
-.site-nav.show {
-  display: flex;
-  flex-direction: row;
-}
-
-
-/* Regole per schermi più piccoli - Mostra il menu a tendina */
-@media screen and (max-width: 768px) {
-  .site-nav {
-    display: flex; /* Nascondi i tasti di navigazione quando lo schermo è troppo piccolo */
-  }
-
-  .menu-icon {
-    display: none; /* Nascondi l'icona del menu a tendina */
-  }
-
-  .menu-icon.active {
-    color: #999; /* Cambia il colore del menu a tendina quando è attivo */
-  }
-
-  /* Mostra i tasti di navigazione quando il menu a tendina è attivo */
-  .menu-icon.active + .site-nav {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-/* Rimuovi il menu a tendina quando la finestra è a schermo intero */
-@media screen and (min-width: 1024px) {
-  .site-nav {
-    display: flex !important; /* Forza la visualizzazione del menu a tendina quando la finestra è a schermo intero */
-  }
-
-  .menu-icon {
-    display: none; /* Nascondi l'icona del menu a tendina */
-  }
 }
