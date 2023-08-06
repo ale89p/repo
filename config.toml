@@ -40,8 +40,7 @@ hrefTargetBlank = true
   blog_posts = true
   author    = "Alessandro"
   description = "Sito dedicato a poesia, narrativa, arte"
- # inserire immagine valida image = "/images/.jpg"
-
+  # inserire immagine valida image = "/images/.jpg"
 
   [sitemap]
     changefreq = 'weekly'
@@ -50,3 +49,7 @@ hrefTargetBlank = true
 
   [markup.goldmark.renderer]
 unsafe= true
+
+  # Scadenza cache per i file statici
+  [params.headers]
+    Cache-Control = "public, max-age=86400"
