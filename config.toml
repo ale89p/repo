@@ -33,7 +33,7 @@ hrefTargetBlank = true
 
 [params]
   mainSections = ["post", "poesie"]
-  search_engine = false
+  search_engine = true
   # google_analytics_id = "G-NB9M61JD17"
   twitter_username = "username"
   paginate = 5
@@ -44,11 +44,11 @@ hrefTargetBlank = true
 
   [sitemap]
     changefreq = 'weekly'
-    # filename = 'sitemap.xml' # disattivo momentamente
+    filename = 'search/sitemap.xml'
     priority = 0.5
 
   [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
   # Scadenza cache per i file statici
   [params.headers]
