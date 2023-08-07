@@ -34,7 +34,7 @@ hrefTargetBlank = true
 [params]
   mainSections = ["post", "poesie"]
   search_engine = true
-  # google_analytics_id = "G-NB9M61JD17"
+  google_analytics_id = "G-NB9M61JD17"
   twitter_username = "username"
   paginate = 5
   blog_posts = true
