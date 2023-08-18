@@ -4,7 +4,7 @@ date = "2023-07-21"
 type = "post"
 tags = ["blog","fotografia"]
 draft = false
-author = "admin"
+author = "Alessandro"
 autore = "Salgado"
 image = "/images/genesi.jpg"
 +++
