@@ -4,7 +4,7 @@ date = "2023-07-01T18:34:02+00:00"
 tags = ["blog", "poesia"]
 categories = ["post"]
 draft = false
-author = "admin"
+author = "Alessandro Agugliaro"
 autore = "Lucia Gaddo Zanovello"
 image = "/images/euganei.jpg"
 +++

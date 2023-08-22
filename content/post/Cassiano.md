@@ -5,7 +5,7 @@ categories = ["post"]
 tags = ["blog","poesia"]
 draft = false
 author = "admin"
-autore = ""
+autore = "Alessandro Agugliaro"
 timeToRead = 5
 image = "/images/cassiano.jpg"
 +++
