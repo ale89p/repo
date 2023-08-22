@@ -15,7 +15,7 @@
       <img src="{{ . }}" alt="Image" class="post-image">
     {{ end }}
     <p class="post-summary">{{ $truncatedSummary | safeHTML }}</p>
-    <p class="post-author right">{{ i18n "written" }} {{ .Params.author }}</p>
+    <!-- <p class="post-author right">{{ i18n "written" }} {{ .Params.author }}</p> -->
   </a>
   {{ $baseurl := .Site.BaseURL }}
   {{ if isset .Params "tags" }} {{ if len .Params.tags }}
