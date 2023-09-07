@@ -42,7 +42,7 @@ E mi addentro nel bosco fitto, la vita che freme in attesa, prorompente, limpide
 
 
 <div style="float: left; margin-right: 15px; max-width: 50%;">
-    <img src="/images/paesaggio_lucchesi.jpg" alt="genesi-salgado" class="responsive-image" title="Genesi-Salgado" style="max-width: 100%;">
+    <img src="/images/paesaggio_lucchesi.jpg" alt="lago" class="responsive-image" title="" style="max-width: 100%;">
 </div>
 
 Perché il mondo è un buon posto dove stare, come mi hai detto un giorno mentre passeggiavamo, mano nella mano, sul lungo fiume, con passi veloci e leggeri. Ad un tratto ti sei fermata costringendo anche me ad una sosta, hai chiuso gli occhi assaporando il sole sulle guance e poi li hai spalancati, intensi e traboccanti di mistero: “il mondo è un buon posto dove stare” hai sentenziato. Un luogo soffice, senza asprezze, il sapore del latte nella bocca e un letto lindo dove sprofondare perché tenera è la notte e perfino il buio non fa paura.
