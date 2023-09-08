@@ -1,0 +1,1 @@
+Daniela Lucchesi insegna lettere al CPIA (Centro Provinciale Istruzione Adulti) di Padova. Counsellor psicosintetista, esperta di scrittura creativa e appassionata di fotografia, conduce laboratori di scrittura espressiva collaborando con scuole e associazioni della città di Padova, dove vive.

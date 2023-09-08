@@ -12,7 +12,8 @@ image = "/images/genesi.jpg"
 <div style="float: left; margin-right: 15px; max-width: 40%;">
     <img src="/images/genesi.jpg" alt="genesi-salgado" class="responsive-image" title="Genesi-Salgado" style="max-width: 100%;">
 </div>
-<p style='text-align: justify;'>  
+
+<div style="text-align: justify">  
 
 Difficilmente si potrebbe trovare un accostamento più felice fra una parola e un'immagine. Ha dell'assurdo, eppure non c'è alcun dubbio: quella rappresentata in figura non può che essere un'istantanea della **Creazione**. Credo che certe verità si insinuino in una maniera immediata, perentoria, priva della benché minima traccia di argomenti o dimostrazioni. Non vi è evidenza più potente dell'ovvietà: *credo quia obvium*.  
 
@@ -61,4 +62,4 @@ La domanda emerge in modo spontaneo: *chi* salva quest'umanità? Lo scatto qui s
 Fra le righe dell'afflato religioso, che pur emerge dirompente dalle opere di Salgado, certo si notano i richiami immanenti, inviti plateali -- più che sommessi -- a prendere per mano il proprio destino, a riscrivere la propria Genesi.
 
 
- </p>
+ </div>
