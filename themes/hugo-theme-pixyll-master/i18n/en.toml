@@ -31,7 +31,8 @@ other = "Tags"
 other = "Cerca nel sito"
 
 [written]
-other = "Scritto da"
+other = ""
+# ho tolto "scritto da"
 
 [newer]
 other = "più recenti"

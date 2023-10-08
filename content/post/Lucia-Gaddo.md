@@ -9,6 +9,9 @@ autore = "Lucia Gaddo Zanovello"
 image = "/images/euganei.jpg"
 +++
 
+<div style="text-align: justify">
+
+
 
 La chiesa di San Pietro, tre o quattro case, a pochi passi il cimitero. A pensarci bene, nel breve tratto di terra che circonda la chiesa di Faedo, ci sono più morti che vivi. Eppure la vita non è spenta, né morente: solo sopita.
 Passare di lì per caso, non in un qualsiasi giorno di festa, ma durante la sagra, la borgata traboccante automobili, persone, voci umane, versi di animali, campane. Scoprirsi un po' meno soli nel dilagante attimo di un fermento, in quel gorgoglio che di religioso conserva l'umano attaccamento alla comunità e al passato, la gratitudine di avere qualcosa in comune da potersi raccontare.
@@ -79,3 +82,5 @@ Anche ciascun sentimento possiede un suo proprio talento e capacità di comprend
 Le facoltà intuitive, attraverso le figure e i traslati, interagiscono veloci, arricchendo la nostra mente di stupore, che è il sapore dei giorni, così come quel tocco connotativo attribuito alle parole e alle forme particolari inventate dal poeta mettono a disposizione dell’altro **la fresca vivacità dell’esistere**, tenendo lontano ciò che di generico, indeterminato e vano farebbe sì che vita autentica non fosse.
 
 Forse non era solo immaginazione, come poco fa richiamavo alla memoria, che  silenzio e solitudine fossero la pagina bianca da cui emergevano parole.
+
+</div>
