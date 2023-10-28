@@ -1,13 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>http://localhost:1313/blog/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/poesia/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/poesie/delizie/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/poesie/veronica/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/post/cassiano/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/post/lucia-gaddo/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
-<url><loc>http://localhost:1313/post/salgado/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://trapesiepoesie.it/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/about/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/contact/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/poesie/sanfilippo-poesie/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/tags/poesia/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/post/paesaggi-danime/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/tags/blog/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/post/salgado/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/tags/fotografia/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/poesie/veronica/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/poesie/delizie/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/post/lucia-gaddo/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://trapesiepoesie.it/post/cassiano/</loc>
+  <lastmod>2023-10-08T10:41:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
