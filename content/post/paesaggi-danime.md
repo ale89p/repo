@@ -7,7 +7,7 @@ draft = false
 author = "Daniela Lucchesi"
 autore = "daniela-lucchesi"
 image = "/images/albero_lucchesi.jpg"
-display_image = true
+display_image = false
 image_width = 400
 image_height = 400
 +++
@@ -25,7 +25,7 @@ E subito ho percepito la profondità delle tue acque inesplorate, un oceano luss
 
 
 <div style="float: right; margin-left: 15px; max-width: 50%;">
-    <img src="/images/paesaggio_lucchesi.jpg" alt="genesi-salgado" class="responsive-image" title="Genesi-Salgado" style="max-width: 100%;">
+    <img src="/images/paesaggio_lucchesi.jpg" alt="" class="responsive-image" title="" style="max-width: 100%;">
 </div>
 
 

@@ -2,17 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poesies on trapesiepoesie</title>
-    <link>http://localhost:1313/poesie/</link>
+    <link>https://trapesiepoesie.it/poesie/</link>
     <description>Recent content in Poesies on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/poesie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trapesiepoesie.it/poesie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Francesca Sanfilippo - Poesie</title>
+      <link>https://trapesiepoesie.it/poesie/sanfilippo-poesie/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/poesie/sanfilippo-poesie/</guid>
+      <description>Capodanno Mi nevicasti addosso
+dentro una sera d’argento
+in mezzo a un coro di voci
+e al tintinnio dei calici
+risuonò il tuo baritono.
+Sfavillanti i tuoi gesti
+ma ferventi gli occhi
+erano cortili d’infanzia
+ruggito pazzo di vita.
+E il tuo sorriso
+di barca immensa
+fin qui
+sulle mie sponde
+veleggiò.
+Mischiai con te
+visioni e palpiti
+lasciasti il porto
+ma ad andarsene
+fu solo il tuo corpo,</description>
+    </item>
+    
+    <item>
+      <title>Nelle isole dei rami</title>
+      <link>https://trapesiepoesie.it/poesie/agostinacchio/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/poesie/agostinacchio/</guid>
+      <description>Può accadere che una poetessa prenda le sembianze, o meglio, che s&amp;rsquo;identifichi in fusti, in scaglie di tronchi, in riflessi d&amp;rsquo;alberi su uno stagno.
+&amp;ldquo;Deve essere il silenzio mosso/che ti convoca a dire le tue/chiarità&amp;rdquo;.
+L&amp;rsquo;acquerello dei paesaggi ritorna al suo elemento, nelle pallide coloriture, nell&amp;rsquo;incedere crespo dell&amp;rsquo;acqua. I paesaggi, da parte loro, natura viva eppure immobile, si scrutano e si animano negli occhi dell&amp;rsquo;autrice, vivono nei sommovimenti e nei prodigi che in essa si generano, come in un fitto rimando di specchi.</description>
+    </item>
+    
     <item>
       <title>Veronica</title>
-      <link>http://localhost:1313/poesie/veronica/</link>
+      <link>https://trapesiepoesie.it/poesie/veronica/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/poesie/veronica/</guid>
+      <guid>https://trapesiepoesie.it/poesie/veronica/</guid>
       <description>Subito dopo il comizio,
 una donna del popolo
 mi vide pieno di rose,
@@ -33,10 +71,10 @@ Colse le mie rose, ma fece</description>
     
     <item>
       <title>Delizie</title>
-      <link>http://localhost:1313/poesie/delizie/</link>
+      <link>https://trapesiepoesie.it/poesie/delizie/</link>
       <pubDate>Sun, 02 Jul 2023 19:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/poesie/delizie/</guid>
+      <guid>https://trapesiepoesie.it/poesie/delizie/</guid>
       <description>È buono fino in fondo
 il bicchiere che disseta
 e il pane delle meraviglie

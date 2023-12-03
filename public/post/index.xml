@@ -2,36 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on trapesiepoesie</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://trapesiepoesie.it/post/</link>
     <description>Recent content in Posts on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trapesiepoesie.it/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paesaggi d&#39;anime</title>
+      <link>https://trapesiepoesie.it/post/paesaggi-danime/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/post/paesaggi-danime/</guid>
+      <description>La prima anima in cui mi sono imbattuta è stata quella di mia madre, energia calda e triste, furore trattenuto, piacere negato, ribollire di acque ferme. E&amp;rsquo; stata la mia piccola mano nella sua, un pesciolino rosso che si dibatte in una mano più grande che lo stringe appena un po&amp;rsquo; più del dovuto, sono stati i miei occhi che guardavano verso i suoi con una preghiera silenziosa mentre il suo sguardo scrutava sempre lontano, dritto davanti a sé.</description>
+    </item>
+    
     <item>
       <title>Salgado, ovvero: la nuova Genesi</title>
-      <link>http://localhost:1313/post/salgado/</link>
+      <link>https://trapesiepoesie.it/post/salgado/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/salgado/</guid>
+      <guid>https://trapesiepoesie.it/post/salgado/</guid>
       <description>Difficilmente si potrebbe trovare un accostamento più felice fra una parola e un&amp;rsquo;immagine. Ha dell&amp;rsquo;assurdo, eppure non c&amp;rsquo;è alcun dubbio: quella rappresentata in figura non può che essere un&amp;rsquo;istantanea della Creazione. Credo che certe verità si insinuino in una maniera immediata, perentoria, priva della benché minima traccia di argomenti o dimostrazioni. Non vi è evidenza più potente dell&amp;rsquo;ovvietà: credo quia obvium.
 L&amp;rsquo;intento dello scatto &amp;ndash; che da la sensazione di voler comprimere, addensare il tempo in uno spazio ristretto &amp;ndash; è quello di offrire la vista non su un paesaggio, quanto piuttosto sul paesaggio, uno sguardo complessivo sul repertorio dei fenomeni naturali: l&amp;rsquo;azione erosiva dei fiumi sul dorso delle montagne, le minuscole gocce d&amp;rsquo;acqua che si riabbracciano in banchi nelle nuvole, i raggi solari che irrompono feroci, aprendovi uno squarcio.</description>
     </item>
     
     <item>
       <title>Una voce a Faedo: Lucia Gaddo Zanovello</title>
-      <link>http://localhost:1313/post/lucia-gaddo/</link>
+      <link>https://trapesiepoesie.it/post/lucia-gaddo/</link>
       <pubDate>Sat, 01 Jul 2023 18:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/lucia-gaddo/</guid>
+      <guid>https://trapesiepoesie.it/post/lucia-gaddo/</guid>
       <description>La chiesa di San Pietro, tre o quattro case, a pochi passi il cimitero. A pensarci bene, nel breve tratto di terra che circonda la chiesa di Faedo, ci sono più morti che vivi. Eppure la vita non è spenta, né morente: solo sopita. Passare di lì per caso, non in un qualsiasi giorno di festa, ma durante la sagra, la borgata traboccante automobili, persone, voci umane, versi di animali, campane.</description>
     </item>
     
     <item>
       <title>Jannacci, Cassiano Ricardo e un telegrafista</title>
-      <link>http://localhost:1313/post/cassiano/</link>
+      <link>https://trapesiepoesie.it/post/cassiano/</link>
       <pubDate>Wed, 28 Jun 2023 19:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/cassiano/</guid>
+      <guid>https://trapesiepoesie.it/post/cassiano/</guid>
       <description>C&amp;rsquo;è sempre un motivo per cui veniamo a conoscenza di ciò che ancora non conosciamo. Fra le innumerevoli informazioni da cui ci lasciamo attraversare, senza concedere loro nemmeno un fremito, accade talvolta che una nuova parola irrompa in noi, che bussi alla nostra porta in modo del tutto inatteso, non sperato. Dice Cassiano Ricardo, nella sua poesia Il suonatore di clarinetto:
 Ma quando sentirai, nell&amp;rsquo;oscurità, la goccia cadere sul triste terreno, lì, allora, sarò io che batto sulla pietra del tuo cuore.</description>
     </item>

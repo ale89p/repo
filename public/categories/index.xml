@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on trapesiepoesie</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://trapesiepoesie.it/categories/</link>
     <description>Recent content in Categories on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 18:34:02 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trapesiepoesie.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>poesie</title>
+      <link>https://trapesiepoesie.it/categories/poesie/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/categories/poesie/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>post</title>
-      <link>http://localhost:1313/categories/post/</link>
-      <pubDate>Sat, 01 Jul 2023 18:34:02 +0000</pubDate>
+      <link>https://trapesiepoesie.it/categories/post/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/post/</guid>
+      <guid>https://trapesiepoesie.it/categories/post/</guid>
       <description></description>
     </item>
     

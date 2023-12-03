@@ -2,36 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autoris on trapesiepoesie</title>
-    <link>http://localhost:1313/autori/</link>
+    <link>https://trapesiepoesie.it/autori/</link>
     <description>Recent content in Autoris on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/autori/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://trapesiepoesie.it/autori/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/autori/cassiano-ricardo/</link>
+      <link>https://trapesiepoesie.it/autori/cassiano-ricardo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/autori/cassiano-ricardo/</guid>
+      <guid>https://trapesiepoesie.it/autori/cassiano-ricardo/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/autori/lucia-gaddo-zanovello/</link>
+      <link>https://trapesiepoesie.it/autori/daniela-lucchesi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/autori/lucia-gaddo-zanovello/</guid>
+      <guid>https://trapesiepoesie.it/autori/daniela-lucchesi/</guid>
+      <description>Daniela Lucchesi insegna lettere al CPIA (Centro Provinciale Istruzione Adulti) di Padova. Counsellor psicosintetista, esperta di scrittura creativa e appassionata di fotografia, conduce laboratori di scrittura espressiva collaborando con scuole e associazioni della città di Padova, dove vive.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://trapesiepoesie.it/autori/francesca-sanfilippo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/autori/francesca-sanfilippo/</guid>
+      <description>Francesca Sanfilippo ha trentotto anni e vive a Catania. Le sue più viscerali passioni sono il teatro e la scrittura.
+Ha iniziato la sua carriera letteraria nel 2019, e dal &amp;lsquo;22 collabora con il quotidiano online Sicilia Giornale. I suoi racconti brevi sono stati pubblicati in diverse antologie e nell&amp;rsquo;aprile del &amp;lsquo;22 è uscito il suo primo libro di poesie, Rosso India, per il marchio editoriale Il soffio, che fa parte del gruppo di Algra Edizioni.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://trapesiepoesie.it/autori/lucia-gaddo-zanovello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/autori/lucia-gaddo-zanovello/</guid>
       <description>Lucia Gaddo Zanovello è nata a Padova nel 1951. Ha esordito come poetessa nel 1978, con la raccolta Porto Antico (Edigam Editore, 1978). Nello stesso anno è entrata a far parte del Gruppo Letterario Formica Nera. Ha ricevuto numerosi premi e riconoscimenti letterari.
 Ha un blognel quale potete trovare alcune delle sue opere.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/autori/salgado/</link>
+      <link>https://trapesiepoesie.it/autori/marina-agostinacchio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/autori/salgado/</guid>
-      <description>Sebastião Salgado(Aimorés, 8 febbraio 1944) è un fotografo brasiliano, fra i più noti al mondo. Tra le sue opere più importanti ci sono Workers (1993), Migrations (2000) e Genesis (2013). Il film documentario &amp;ldquo;Il sale della terra&amp;rdquo; (2014, regia di Wim Wenders e Juliano Ribeiro Salgado), offre uno spaccato dettagliato sulla vita e sulle opere del fotografo.</description>
+      <guid>https://trapesiepoesie.it/autori/marina-agostinacchio/</guid>
+      <description>MARINA AGOSTINACCHIO vive a Padova, dove è nata nel 1957. Si è laureata con una tesi sugli scritti letterari di Antonio Banfi. Ha insegnato Lettere nella scuola dal 1983 al 2020. Nel 2002 è stata tra i vincitori del premio internazionale Eugenio Montale per l’inedito. Sul n. 178 di “Poesia”, la rivista di Nicola Crocetti, è uscito, nel dicembre del 2003, Elegia, un poemetto dedicato al padre. Ha pubblicato le seguenti raccolte: Porticati, Ro Ferrarese (FE), Book Editore, 2006; Azzurro, il melograno, Pasturana (AL), Puntoacapo Editrice, 2009; Lo sguardo, la gioia, Narcissus Self Publishing, 2012; Tra ponte e selciato, con illustrazioni di Paola Munari, Venezia, Centro Internazionale della Grafica, 2014; Statue d’acqua, corredato da illustrazioni e incisioni dell’artista Elena Candeo, Venezia, Centro Internazionale della Grafica, 2015; Bab el gherib (La porta del vento), con illustrazioni di Graziella Giacobbe, Sesto San Giovanni (MI), Mimesis Edizioni, 2018; Trittico berlinese, con illustrazioni di Elena Candeo e Paola Munari, New York, Idea Press 2021; Dialogo con Albertine, con illustrazioni di Elena Candeo, Caravaggio (BG), Divinafollia, 2022; In the islands of the boughs (Nelle isole dei rami), Testo bilingue ,con illustrazioni di Paola Munari, New York, Idea Press 2023.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://trapesiepoesie.it/autori/salgado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/autori/salgado/</guid>
+      <description>Sebastião Salgado(Aimorés, 8 febbraio 1944) è un fotografo brasiliano, fra i più noti al mondo. Tra le sue opere più importanti ci sono Workers (1993), Migrations (2000) e Genesis (2013). Il film documentario &amp;ldquo;Il sale della terra&amp;rdquo; (2014, regia di Wim Wenders e Juliano Ribeiro Salgado), offre uno spaccato dettagliato sulla sua vita e sulle sue opere.</description>
     </item>
     
   </channel>

@@ -1,0 +1,3 @@
+Marina Agostinacchio vive a Padova, dove è nata nel 1957. Laureata in Lettere, ha insegnato nella scuola dal 1983 al 2020. Nel 2002 è stata tra i vincitori del premio internazionale Eugenio Montale per l’inedito. Nel dicembre del 2003 è stato pubblicato **Elegia**, un poemetto dedicato al padre. Alcune raccolte di poesie sono:  **Porticati** (Book Editore, 2006); **Azzurro** (Il Melograno, Puntoacapo Editrice, 2009); **In the islands of the boughs** (Nelle isole dei rami), Testo bilingue, con illustrazioni di Paola Munari (New York, Idea Press 2023).
+
+Ha un <a href="https://www.borntobeonline.it/ilcieloinunastanza-2/"> blog</a>, uno  spazio dove le donne si raccontano attraverso scritti e audio.

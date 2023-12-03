@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on trapesiepoesie</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://trapesiepoesie.it/tags/</link>
     <description>Recent content in Tags on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trapesiepoesie.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>poesia</title>
+      <link>https://trapesiepoesie.it/tags/poesia/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/tags/poesia/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
-      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <link>https://trapesiepoesie.it/tags/blog/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://trapesiepoesie.it/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fotografia</title>
-      <link>http://localhost:1313/tags/fotografia/</link>
+      <link>https://trapesiepoesie.it/tags/fotografia/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/fotografia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>poesia</title>
-      <link>http://localhost:1313/tags/poesia/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/poesia/</guid>
+      <guid>https://trapesiepoesie.it/tags/fotografia/</guid>
       <description></description>
     </item>
     

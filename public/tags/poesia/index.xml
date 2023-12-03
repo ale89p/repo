@@ -2,17 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poesia on trapesiepoesie</title>
-    <link>http://localhost:1313/tags/poesia/</link>
+    <link>https://trapesiepoesie.it/tags/poesia/</link>
     <description>Recent content in poesia on trapesiepoesie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/poesia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trapesiepoesie.it/tags/poesia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Francesca Sanfilippo - Poesie</title>
+      <link>https://trapesiepoesie.it/poesie/sanfilippo-poesie/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/poesie/sanfilippo-poesie/</guid>
+      <description>Capodanno Mi nevicasti addosso
+dentro una sera d’argento
+in mezzo a un coro di voci
+e al tintinnio dei calici
+risuonò il tuo baritono.
+Sfavillanti i tuoi gesti
+ma ferventi gli occhi
+erano cortili d’infanzia
+ruggito pazzo di vita.
+E il tuo sorriso
+di barca immensa
+fin qui
+sulle mie sponde
+veleggiò.
+Mischiai con te
+visioni e palpiti
+lasciasti il porto
+ma ad andarsene
+fu solo il tuo corpo,</description>
+    </item>
+    
+    <item>
+      <title>Nelle isole dei rami</title>
+      <link>https://trapesiepoesie.it/poesie/agostinacchio/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/poesie/agostinacchio/</guid>
+      <description>Può accadere che una poetessa prenda le sembianze, o meglio, che s&amp;rsquo;identifichi in fusti, in scaglie di tronchi, in riflessi d&amp;rsquo;alberi su uno stagno.
+&amp;ldquo;Deve essere il silenzio mosso/che ti convoca a dire le tue/chiarità&amp;rdquo;.
+L&amp;rsquo;acquerello dei paesaggi ritorna al suo elemento, nelle pallide coloriture, nell&amp;rsquo;incedere crespo dell&amp;rsquo;acqua. I paesaggi, da parte loro, natura viva eppure immobile, si scrutano e si animano negli occhi dell&amp;rsquo;autrice, vivono nei sommovimenti e nei prodigi che in essa si generano, come in un fitto rimando di specchi.</description>
+    </item>
+    
+    <item>
+      <title>Paesaggi d&#39;anime</title>
+      <link>https://trapesiepoesie.it/post/paesaggi-danime/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trapesiepoesie.it/post/paesaggi-danime/</guid>
+      <description>La prima anima in cui mi sono imbattuta è stata quella di mia madre, energia calda e triste, furore trattenuto, piacere negato, ribollire di acque ferme. E&amp;rsquo; stata la mia piccola mano nella sua, un pesciolino rosso che si dibatte in una mano più grande che lo stringe appena un po&amp;rsquo; più del dovuto, sono stati i miei occhi che guardavano verso i suoi con una preghiera silenziosa mentre il suo sguardo scrutava sempre lontano, dritto davanti a sé.</description>
+    </item>
+    
     <item>
       <title>Veronica</title>
-      <link>http://localhost:1313/poesie/veronica/</link>
+      <link>https://trapesiepoesie.it/poesie/veronica/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/poesie/veronica/</guid>
+      <guid>https://trapesiepoesie.it/poesie/veronica/</guid>
       <description>Subito dopo il comizio,
 una donna del popolo
 mi vide pieno di rose,
@@ -33,10 +80,10 @@ Colse le mie rose, ma fece</description>
     
     <item>
       <title>Delizie</title>
-      <link>http://localhost:1313/poesie/delizie/</link>
+      <link>https://trapesiepoesie.it/poesie/delizie/</link>
       <pubDate>Sun, 02 Jul 2023 19:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/poesie/delizie/</guid>
+      <guid>https://trapesiepoesie.it/poesie/delizie/</guid>
       <description>È buono fino in fondo
 il bicchiere che disseta
 e il pane delle meraviglie
@@ -56,19 +103,19 @@ al vento d&amp;rsquo;essere. Lucia Gaddo Zanovello, Vele al Venda.</description>
     
     <item>
       <title>Una voce a Faedo: Lucia Gaddo Zanovello</title>
-      <link>http://localhost:1313/post/lucia-gaddo/</link>
+      <link>https://trapesiepoesie.it/post/lucia-gaddo/</link>
       <pubDate>Sat, 01 Jul 2023 18:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/lucia-gaddo/</guid>
+      <guid>https://trapesiepoesie.it/post/lucia-gaddo/</guid>
       <description>La chiesa di San Pietro, tre o quattro case, a pochi passi il cimitero. A pensarci bene, nel breve tratto di terra che circonda la chiesa di Faedo, ci sono più morti che vivi. Eppure la vita non è spenta, né morente: solo sopita. Passare di lì per caso, non in un qualsiasi giorno di festa, ma durante la sagra, la borgata traboccante automobili, persone, voci umane, versi di animali, campane.</description>
     </item>
     
     <item>
       <title>Jannacci, Cassiano Ricardo e un telegrafista</title>
-      <link>http://localhost:1313/post/cassiano/</link>
+      <link>https://trapesiepoesie.it/post/cassiano/</link>
       <pubDate>Wed, 28 Jun 2023 19:34:02 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/cassiano/</guid>
+      <guid>https://trapesiepoesie.it/post/cassiano/</guid>
       <description>C&amp;rsquo;è sempre un motivo per cui veniamo a conoscenza di ciò che ancora non conosciamo. Fra le innumerevoli informazioni da cui ci lasciamo attraversare, senza concedere loro nemmeno un fremito, accade talvolta che una nuova parola irrompa in noi, che bussi alla nostra porta in modo del tutto inatteso, non sperato. Dice Cassiano Ricardo, nella sua poesia Il suonatore di clarinetto:
 Ma quando sentirai, nell&amp;rsquo;oscurità, la goccia cadere sul triste terreno, lì, allora, sarò io che batto sulla pietra del tuo cuore.</description>
     </item>
