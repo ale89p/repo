@@ -7,7 +7,7 @@ draft = false
 author = "Daniela Lucchesi"
 autore = "daniela-lucchesi"
 image = "/images/albero_lucchesi.jpg"
-display_image = false
+display_image = true
 image_width = 400
 image_height = 400
 +++

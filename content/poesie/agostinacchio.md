@@ -1,7 +1,7 @@
 +++
 title = "Nelle isole dei rami"
 date = "2023-12-03"
-categories = ["post"]
+categories = ["poesia"]
 tags = ["poesia"]
 draft = false
 author = "Alessandro Agugliaro"
