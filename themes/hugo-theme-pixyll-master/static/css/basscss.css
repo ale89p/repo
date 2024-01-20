@@ -887,3 +887,24 @@ a:hover {
    }
 
 }
+
+.special-rubric-post {
+  background: linear-gradient(to left, rgba(105, 111, 198, 1), rgba(105, 111, 198, 0));
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+
+.rubric-name {
+  position: absolute;
+  margin-top: 10px;  /* regolare margine */
+  right: 0;
+  color: #333; /* Colore del testo */
+  background-color: rgba(173, 216, 230, 0.8); /* Colore di sfondo del nome della rubrica */
+  padding: 5px; /* Regola il padding se necessario */
+  border-bottom-left-radius: 5px; /* Regola il raggio dell'angolo se necessario */
+  font-family: 'Courier New', serif; /* Sostituisci 'NomeDelTuoFont' con il nome reale del font che desideri utilizzare */
+
+}

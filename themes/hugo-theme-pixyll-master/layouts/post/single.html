@@ -1,4 +1,25 @@
 {{ partial "head.html" . }}
+
+
+<style>
+  /* Stile per l'immagine dell'autore circolare */
+  .circular-author-image {
+    width: 150px; /* Larghezza fissa desiderata */
+    height: 150px; /* Altezza fissa desiderata */
+    border-radius: 50%; /* Applica il clipping circolare */
+    border: 1.5px solid rgba(105, 111, 198,0.8); /* Spessore e colore della cornice (puoi regolarlo) */
+    overflow: hidden; /* Assicura che la cornice sia visibile anche se l'immagine è più grande */
+  }
+
+  /* Stile per posizionare l'immagine a sinistra */
+  .author-image-circle-left {
+    float: left; /* Allineamento a sinistra */
+    margin-right: 20px; /* Spazio tra l'immagine e la biografia (puoi regolarlo) */
+  }
+</style>
+
+
+
 <div class="site-wrap">
   {{ partial "header.html" . }}
   <div class="post p2 p-responsive wrap" role="main">
@@ -9,18 +30,25 @@
         {{ $baseurl := .Site.BaseURL }}
       </div>
 
-      <!-- Aggiungi il codice per verificare la variabile display_image -->
       {{ if .Params.display_image }}
         {{ $imageWidth := .Params.image_width | default 800 }}
         {{ $imageHeight := .Params.image_height | default 600 }}
+        {{ $coverCaption := .Params.cover_caption | default "" | replaceRE "\\[([^\\]]+)\\]\\(([^)]+)\\)" `<a href="$2" target="_blank">$1 <i class="fa fa-external-link-alt"></i></a>` | markdownify }}
+        {{ $fontSize := .Params.caption_font_size | default "16px" }}
+
         <img src="{{ .Params.image }}" alt="Immagine" width="{{ $imageWidth }}" height="{{ $imageHeight }}">
+
+        {{ with $coverCaption }}
+          <p class="image-caption" style="font-size: {{ $fontSize | default "16px" | safeHTML }}">{{ . }}</p>
+        {{ end }}
       {{ end }}
+
+
 
       <article class="post-content">
         {{ .Content }}
       </article>
 
-      <!-- Passa le variabili del post al tuo shortcode "social_sharing.html" -->
       {{ partial "social_sharing.html" . }}
 
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
@@ -34,15 +62,21 @@
 
       {{ $authorFileName := printf "%s.md" (replace .Params.autore " " "-" | lower) }}
       {{ $authorFilePath := printf "autori/%s" $authorFileName }}
-      <!-- {{ printf "Author file path: %s" $authorFilePath }} -->
       {{ $authorBio := readFile (printf "content/%s" $authorFilePath) }}
 
-      {{ if $authorBio }}
-        <hr class="post-separator">
-        <div class="author-bio">
-          <p>{{ $authorBio | markdownify }}</p>
-        </div>
-      {{ end }}
+
+            {{ if $authorBio }}
+              <hr class="post-separator">
+              <div class="author-bio">
+                <!-- Aggiungi l'immagine dell'autore circolare a sinistra -->
+                <div class="author-image-circle-left">
+                  <img src="{{ .Params.author_image }}" alt="Foto dell'autore" class="circular-author-image">
+                </div>
+                <div class="author-description">
+                  <p>{{ $authorBio | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
 
       {{ partial "comments.html" . }}
     </div>
