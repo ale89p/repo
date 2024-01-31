@@ -899,7 +899,7 @@ a:hover {
 
 .rubric-name {
   position: absolute;
-  margin-top: 10px;  /* regolare margine */
+  margin-top: 200px;  /* regolare margine */
   right: 0;
   color: #333; /* Colore del testo */
   background-color: rgba(173, 216, 230, 0.8); /* Colore di sfondo del nome della rubrica */
