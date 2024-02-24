@@ -4,11 +4,12 @@
 <style>
   /* Stile per l'immagine dell'autore circolare */
   .circular-author-image {
-    width: 150px; /* Larghezza fissa desiderata */
-    height: 150px; /* Altezza fissa desiderata */
+    width: 130px; /* Larghezza fissa desiderata */
+    height: 130px; /* Altezza fissa desiderata */
     border-radius: 50%; /* Applica il clipping circolare */
     border: 1.5px solid rgba(105, 111, 198,0.8); /* Spessore e colore della cornice (puoi regolarlo) */
     overflow: hidden; /* Assicura che la cornice sia visibile anche se l'immagine è più grande */
+    object-fit: cover;
   }
 
   /* Stile per posizionare l'immagine a sinistra */
@@ -16,6 +17,7 @@
     float: left; /* Allineamento a sinistra */
     margin-right: 20px; /* Spazio tra l'immagine e la biografia (puoi regolarlo) */
   }
+
 </style>
 
 
