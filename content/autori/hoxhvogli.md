@@ -1,0 +1,1 @@
+Idolo Hoxhvogli è nato a Tirana nel 1984. Vive a Porto San Giorgio, nelle Marche. Si è formato in filosofia alla Cattolica di Milano e all’Università di Macerata. I suoi lavori sono presenti in numerose riviste, tra cui «Gradiva» e «Cuadernos de Filología Italiana». Ha scritto due libri: *Introduzione al mondo* e *La comunità dei viventi*.
