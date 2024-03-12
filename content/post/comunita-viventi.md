@@ -1,7 +1,7 @@
 +++
 title = "La comunità dei viventi: Idolo Hoxhvogli "
 date = "2024-03-12T08:00:02+00:00"
-tags = ["blog, filosofia"]
+tags = ["blog", "filosofia"]
 categories = ["post"]
 draft = false
 author = "Idolo Hoxhvogli"
