@@ -3,7 +3,7 @@ title = "Leonard Cohen, poeta"
 date = "2024-01-16T18:34:02+00:00"
 tags = ["blog", "poesia"]
 categories = ["post"]
-draft = false
+draft = true
 special_rubric="true"
 author = "Roberto Pelo"
 autore = "roberto-pelo"
@@ -18,7 +18,7 @@ image_height = 200
 
 <div style="text-align: justify">
 
-*Suzanne*, *Famous blue raincoat*, *Seems so long ago*, *Chelsea Hotel*, *Halleluhja*, *Dance me to the end of love*… Queste canzoni hanno consacrato Leonard Cohen come uno dei più grandi cantautori (brutta parola) della storia della musica moderna, perché è riuscito a portare a compimento un progetto caro a tutti gli autori e cioè fare poesia in musica. Che sembra ovvio, ma ovvio non è. 
+*Suzanne*, *Famous blue raincoat*, *Seems so long ago*, *Chelsea Hotel*, *Halleluhja*, *Dance me to the end of love*… Queste canzoni hanno consacrato Leonard Cohen come uno dei più grandi cantautori (brutta parola) della storia della musica moderna, perché è riuscito a portare a compimento un progetto caro a tutti gli autori e cioè fare poesia in musica. Che sembra ovvio, ma ovvio non è.
 Di più, Cohen in alcuni casi ha preso poesie non sue, le ha metabolizzate e rilette, per trasformarle in qualcosa di nuovo, più armonico, a volte più completo rispetto all’originale, almeno nella forza sottile dei sentimenti espressi. Pensiamo alla sublime Alexandra leaving, la cui composizione si è snodata per sedici anni: tratta da una poesia di Kostantinos P. Kavafis – che narra di Marco Antonio e della perdita di Alessandria (la città) – la canzone di Cohen parla, invece, della fine di un amore e dell’addio, malinconico ma cosciente del bello che è stato, ad Alessandra, perché la notte si è fatta sempre più fredda e il dio dell’amore se ne andato. O la rappresentazione dell’esistenza di Take this waltz, che traduce e mette in musica Pequeño val vienés di Garcia Lorca, con esiti e sfumature assolutamente nuove, e note che nell’originale non si trovano: prendi questo valzer, con il suo alito di brandy e di morte, che bagna la sua coda nel mare. La musica, un valzer triste che accompagna queste parole, completa ed esalta la poesia di Lorca, da alcuni critici considerata, peraltro, minore rispetto al suo corpus poetico.
 Questi risultati non nascono dal nulla o non sono il semplice fortuito lampo di genio, che lì nasce e lì muore. Di origini ebraiche polacco-lituane, anglofono di Montreal, Cohen pubblica nel 1956, a ventuno anni, appena laureato in letteratura inglese, il suo primo libro di poesie, Let Us Compare Mythologies, cui seguiranno The Spice-box of Hearth (1961), Flowers for Hitler (1964), Parasite of Heaven (1966) e i romanzi The Favourite Game (1963) e Beautiful losers (1966).
 Quando esce il primo album di canzoni (aveva pubblicato nel 1957 un album collettivo, ma di poesie, Six Montreal Poets, in cui recita otto sue liriche), Songs of Leonard Cohen, nel 1967, Cohen è già da tempo un poeta e romanziere noto e affermato, anche a livello internazionale. E la sua produzione poetica continuerà negli anni successivi: The Energy of Slaves (1972), Death of a Lady’s Man (1978), fino a Book of Longing (2006). Il successo delle sue canzoni nei trent’anni successivi, lo renderanno un’icona a livello mondiale.
