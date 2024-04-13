@@ -32,13 +32,13 @@ hrefTargetBlank = true
   tag = "tags"
 
 [params]
-  mainSections = ["post", "poesie"]
+  mainSections = ["post", "poesie", "ivostripezzi"]
   search_engine = true
-  google_analytics_id = "G-NB9M61JD17" 
+  google_analytics_id = "G-NB9M61JD17"
   twitter_username = "username"
   paginate = 10
   blog_posts = true
-  author    = "Alessandro"
+  author    = "Alessandro Agugliaro"
   description = "Sito dedicato a poesia, narrativa, arte"
   # inserire immagine valida image = "/images/.jpg"
 

@@ -1,13 +1,15 @@
 {{ partial "head.html" . }}
 
+
 <style>
   /* Stile per l'immagine dell'autore circolare */
   .circular-author-image {
-    width: 150px; /* Larghezza fissa desiderata */
-    height: 150px; /* Altezza fissa desiderata */
+    width: 130px; /* Larghezza fissa desiderata */
+    height: 130px; /* Altezza fissa desiderata */
     border-radius: 50%; /* Applica il clipping circolare */
     border: 1.5px solid rgba(105, 111, 198,0.8); /* Spessore e colore della cornice (puoi regolarlo) */
     overflow: hidden; /* Assicura che la cornice sia visibile anche se l'immagine è più grande */
+    object-fit: cover;
   }
 
   /* Stile per posizionare l'immagine a sinistra */
@@ -26,9 +28,11 @@
 
 </style>
 
+
+
 <div class="site-wrap">
   {{ partial "header.html" . }}
-  <div class="poesie-single p2 p-responsive wrap" role="main">
+  <div class="post p2 p-responsive wrap" role="main">
     <div class="measure">
       <div class="post-header mb2">
         <h1 class="py2">{{ .Title }}</h1>
@@ -36,38 +40,53 @@
         {{ $baseurl := .Site.BaseURL }}
       </div>
 
+      {{ if .Params.display_image }}
+        {{ $imageWidth := .Params.image_width | default 800 }}
+        {{ $imageHeight := .Params.image_height | default 600 }}
+        {{ $coverCaption := .Params.cover_caption | default "" | replaceRE "\\[([^\\]]+)\\]\\(([^)]+)\\)" `<a href="$2" target="_blank">$1 <i class="fa fa-external-link-alt"></i></a>` | markdownify }}
+        {{ $fontSize := .Params.caption_font_size | default "16px" }}
+
+        <img src="{{ .Params.image }}" alt="Immagine" width="{{ $imageWidth }}" height="{{ $imageHeight }}">
+
+        {{ with $coverCaption }}
+          <p class="image-caption" style="font-size: {{ $fontSize | default "16px" | safeHTML }}">{{ . }}</p>
+        {{ end }}
+      {{ end }}
+
+
+
       <article class="post-content">
         {{ .Content }}
       </article>
 
-      <!-- Passa i parametri del post al tuo shortcode "social_sharing.html" -->
-      {{ partial "social_sharing.html" }}
+      {{ partial "social_sharing.html" . }}
 
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
-        <p class="post-meta"><i class="fa fa-tags" aria-hidden="true"></i>&nbsp;
-          {{ range $i, $e := .Params.tags }}
+      <p class="post-meta"><i class="fa fa-tags"></i>&nbsp;
+        {{ range $i, $e := .Params.tags }}
             {{if $i}},&nbsp;{{end}}
             <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
-          {{ end }}
-        </p>
+        {{ end }}
+      </p>
       {{ end }} {{ end }}
 
       {{ $authorFileName := printf "%s.md" (replace .Params.autore " " "-" | lower) }}
       {{ $authorFilePath := printf "autori/%s" $authorFileName }}
       {{ $authorBio := readFile (printf "content/%s" $authorFilePath) }}
 
-      {{ if $authorBio }}
-        <hr class="post-separator">
-        <div class="author-bio">
-          <!-- Aggiungi l'immagine dell'autore circolare a sinistra -->
-          <div class="author-image-circle-left">
-            <img src="{{ .Params.author_image }}" alt="Foto dell'autore" class="circular-author-image">
-          </div>
-          <div class="author-description" style="text-align: justify;">
-            <p>{{ $authorBio | markdownify }}</p>
-          </div>
-        </div>
-      {{ end }}
+
+            {{ if $authorBio }}
+              <hr class="post-separator">
+              <div class="author-bio">
+                <!-- Aggiungi l'immagine dell'autore circolare a sinistra -->
+                <div class="author-image-circle-left">
+                  <img src="{{ .Params.author_image }}" alt="Foto dell'autore" class="circular-author-image">
+                </div>
+                <div class="author-description" style="text-align: justify;">
+                  <p>{{ $authorBio | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
 
       {{ partial "comments.html" . }}
     </div>

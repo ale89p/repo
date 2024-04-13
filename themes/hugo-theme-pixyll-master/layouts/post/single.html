@@ -18,6 +18,15 @@
     margin-right: 20px; /* Spazio tra l'immagine e la biografia (puoi regolarlo) */
   }
 
+
+  .author-description p {
+    font-size: 14px; /* Imposta il font-size desiderato */
+  }
+
+  .post-content p {
+    font-size: 15px; /* Imposta il font-size desiderato */
+  }
+
 </style>
 
 
@@ -74,7 +83,7 @@
                 <div class="author-image-circle-left">
                   <img src="{{ .Params.author_image }}" alt="Foto dell'autore" class="circular-author-image">
                 </div>
-                <div class="author-description">
+                <div class="author-description" style="text-align: justify;">
                   <p>{{ $authorBio | markdownify }}</p>
                 </div>
               </div>

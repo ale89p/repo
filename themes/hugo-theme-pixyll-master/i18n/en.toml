@@ -8,6 +8,13 @@ other = "Chi siamo"
 [contact]
 other = "Contatti"
 
+[poesiadelgiorno]
+other = "Poesia del giorno"
+
+[ivostripezzi]
+
+other = "I vostri pezzi"
+
 [sections]
 
 other = "Sezioni"

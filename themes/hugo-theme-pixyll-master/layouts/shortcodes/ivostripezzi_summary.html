@@ -1,0 +1,6 @@
+<div class="blog-summary">
+    {{ $posts := where .Site.RegularPages "Type" "in" (slice "ivostripezzi") }}
+    {{ range $posts.ByDate.Reverse }}
+        {{ .Render "summary" }}
+    {{ end }}
+</div>
