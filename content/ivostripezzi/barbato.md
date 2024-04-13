@@ -91,3 +91,24 @@ in cumuletti sparsi nel giardino
 da bruciare, per inebriare  
 i fuochi e di un profumo l'universo  
 che ci scivola vicino.  
+
+</br>
+
+**In coda (La vita di ogni regola)**
+
+Sto bene con gli estranei,  
+perché non sanno il gioco e quanto è dura  
+la vita di ogni regola.  
+Con chi, se un po' curioso, potrà sempre  
+immaginarmi un po'  
+più buono, in chissà quale suo collage  
+di vuoti e proiezioni.  
+E poi con te, quando compari come  
+un lampo tra le nuvole  
+più spesse a fare chiari anche i minuscoli  
+dettagli sparsi in coda  
+a ogni mio sbaglio, in tutti i tuoi sbadigli.  
+Con quelli che si allenano  
+a sbocciare, persino a tramontare  
+senza intoppi; coi gatti  
+che vedono anche al buio quando serve.  
