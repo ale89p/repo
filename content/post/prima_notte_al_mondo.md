@@ -1,10 +1,10 @@
 +++
 title = "La prima notte al mondo: Luigi Finucci"
 date = "2024-06-10T08:00:02+00:00"
-tags = ["blog", "poesia", "recensioni"]
+tags = ["poesia", "recensioni"]
 categories = ["post"]
 draft = false
-author = "finucci"
+author = "Alessandro Agugliaro"
 autore = "finucci"
 author_image = "/images/finucci.jpeg"
 image = "/images/prima_notte_mondo.jpg"
