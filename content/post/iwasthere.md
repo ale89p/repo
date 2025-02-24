@@ -1,6 +1,6 @@
 +++
 title = "I was there, di Roberto Pelo"
-date = "2025-02-25T18:34:02+00:00"
+date = "2025-02-24T18:34:02+00:00"
 tags = ["blog"]
 categories = ["post"]
 draft = false
