@@ -1,9 +1,9 @@
 +++
 title = "Signor Malaussène, o d'un capro"
-date = "2025-01-09T18:34:02+00:00"
+date = "2025-03-02T09:34:02+01:00"
 tags = ["blog"]
 categories = ["post"]
-draft = true
+draft = false
 special_rubric="false"
 author = "Alessandro Agugliaro"
 autore = "agugliaro"
